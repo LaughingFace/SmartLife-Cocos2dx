@@ -1,0 +1,1 @@
+# SmartLife-Cocos2dx
