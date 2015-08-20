@@ -8,7 +8,6 @@
 #include "cocostudio/CocoStudio.h"
 #include "ElasticRope/ElasticRope.h"
 #include "logoactiontimelinenode.h"
-#include "Sources/GAF.h"
 USING_NS_CC;
 USING_NS_CC_EXT;
 using namespace ui;
@@ -20,7 +19,6 @@ public cocos2d::Layer
 ,public ElasticRopeCallback
 {
     private :
-    gaf::GAFObject* obj;
     //view config;
     Vec2 _fanPostion;
     Vec2 _laughingManPostion;

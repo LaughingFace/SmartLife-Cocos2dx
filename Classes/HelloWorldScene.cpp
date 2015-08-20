@@ -145,23 +145,12 @@ bool HelloWorld::init()
          ModelManager::getInstance()->setAction(this,_elasticRope,_laughingMan);
     scheduleUpdate();
     
-    auto asset = gaf::GAFAsset::create("LogoFaceAnim/LogoFaceAnim.gaf");
-    obj = asset->createObject();
-    obj->setPosition(_visibleSize/2);
-    
-    obj->playSequence("working", false);
-//    obj->playSequence("eat",false,true);
-    obj->start();
-    obj->setAnimationFinishedPlayDelegate(CC_CALLBACK_1(HelloWorld::onLogoAnimEnd, this));
-    addChild(obj);
+  
     //auto list = obj->getSequences();
     //list["eat"].name
     return true;
 }
-void HelloWorld::onLogoAnimEnd(gaf::GAFObject* obj){
-    log("ccccc");
-//    obj->playSequence("normal",false);
-}
+
 
 void HelloWorld::menuCloseCallback(Ref* pSender)
 {
@@ -209,17 +198,19 @@ void HelloWorld::initView(){
     _elasticRope->setElasticRopeCallback(this);
     _elasticRope->createB2body(_washingBirthplacePosition);
     _laughingMan = LogoActionTimelineNode::create();
-    _laughingMan->setPosition(_laughingManPostion);
-    _laughingMan->setScale(2.0f);
-//    _laughingMan->performWorkingAnim(true);
-//    LogoActionTimelineNode::currentState = LogoActionTimelineNode::STATE_MOUSE_OPEN;
-//    _laughingMan->performWorkingAnim(true);
+//    _laughingMan->setPosition(_laughingManPostion);
+    _laughingMan->setGAFPosition(_laughingManPostion);
     //add scene .
     addChild(_fan);
     addChild(_title);
     addChild(_elasticRope);
-    addChild(_laughingMan);
-    
+//    addChild(_laughingMan);
+    auto asset = gaf::GAFAsset::create("LogoFaceAnim/LogoFaceAnim.gaf");
+    auto _gafObj = asset->createObject();
+    _gafObj->start();
+    _gafObj->playSequence("normal", false);
+    _gafObj->setAnchorPoint(Vec2(0.5f,0.5f));
+    addChild(_gafObj);
 }
 static int scaleAnimation = 0;
 static const bool isIOS = CC_TARGET_PLATFORM == 1;

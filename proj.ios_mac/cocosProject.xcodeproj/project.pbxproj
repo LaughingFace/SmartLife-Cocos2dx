@@ -84,7 +84,8 @@
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
 		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
-		F934BD7D1B85820700207EC6 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD84ECE31B70717700B35309 /* RootViewController.mm */; };
+		F934BD801B85844900207EC6 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F934BD7F1B85844900207EC6 /* RootViewController.mm */; };
+		F934BD821B8585BA00207EC6 /* fengshan.csb in Resources */ = {isa = PBXBuildFile; fileRef = F934BD811B8585BA00207EC6 /* fengshan.csb */; };
 		F93BEB9B1B7C7C4500914DE5 /* ElasticRopeConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F93BEB861B7C7C4500914DE5 /* ElasticRopeConfig.cpp */; };
 		F93BEB9C1B7C7C4500914DE5 /* ElasticRopeConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F93BEB861B7C7C4500914DE5 /* ElasticRopeConfig.cpp */; };
 		F93BEB9D1B7C7C4500914DE5 /* CurveRope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F93BEB871B7C7C4500914DE5 /* CurveRope.cpp */; };
@@ -287,7 +288,6 @@
 		AD0392461B7051540058CF7D /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
 		AD312D931B71B8B600A21159 /* logoactiontimelinenode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logoactiontimelinenode.cpp; sourceTree = "<group>"; };
 		AD312D941B71B8B600A21159 /* logoactiontimelinenode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logoactiontimelinenode.h; sourceTree = "<group>"; };
-		AD84ECE31B70717700B35309 /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RootViewController.mm; path = ../../../test/androidtest/proj.ios_mac/ios/RootViewController.mm; sourceTree = "<group>"; };
 		ADF0869D1B6DE75700D11A53 /* modelmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = modelmanager.cpp; sourceTree = "<group>"; };
 		ADF0869E1B6DE75700D11A53 /* modelmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modelmanager.h; sourceTree = "<group>"; };
 		ADF086A11B6DE76300D11A53 /* logoanimationloader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logoanimationloader.cpp; sourceTree = "<group>"; };
@@ -299,6 +299,8 @@
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D6B0611A1803AB670077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		F934BD7F1B85844900207EC6 /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RootViewController.mm; path = ios/RootViewController.mm; sourceTree = SOURCE_ROOT; };
+		F934BD811B8585BA00207EC6 /* fengshan.csb */ = {isa = PBXFileReference; lastKnownFileType = file; name = fengshan.csb; path = ../../../../../Volumes/share/cocosProject/Resources/fengshan.csb; sourceTree = "<group>"; };
 		F93BEB861B7C7C4500914DE5 /* ElasticRopeConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ElasticRopeConfig.cpp; sourceTree = "<group>"; };
 		F93BEB871B7C7C4500914DE5 /* CurveRope.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CurveRope.cpp; sourceTree = "<group>"; };
 		F93BEB881B7C7C4500914DE5 /* FixationPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixationPoint.h; sourceTree = "<group>"; };
@@ -455,7 +457,7 @@
 		080E96DDFE201D6D7F000001 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				AD84ECE31B70717700B35309 /* RootViewController.mm */,
+				F934BD7F1B85844900207EC6 /* RootViewController.mm */,
 				5087E77117EB970100C73F5D /* Icons */,
 				503AE0FA17EB989F00D1A890 /* AppController.h */,
 				503AE0FB17EB989F00D1A890 /* AppController.mm */,
@@ -527,6 +529,7 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F934BD811B8585BA00207EC6 /* fengshan.csb */,
 				F98C7D181B8332BC00CC17A5 /* LogoFaceAnim */,
 				AD0390081B7051520058CF7D /* briefs.png */,
 				AD0390091B7051520058CF7D /* CloseNormal.png */,
@@ -922,6 +925,7 @@
 				F93BEC501B7C7EB400914DE5 /* pcShader_PositionTextureAlpha_frag.frag in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
+				F934BD821B8585BA00207EC6 /* fengshan.csb in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -951,7 +955,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F934BD7D1B85820700207EC6 /* RootViewController.mm in Sources */,
 				F93BEBAD1B7C7C4500914DE5 /* MouseJoint.cpp in Sources */,
 				F93BEBA11B7C7C4500914DE5 /* BodyData.cpp in Sources */,
 				F98BC99E1B78804800360312 /* LocationAnalyst.cpp in Sources */,
@@ -978,6 +981,7 @@
 				F93BEC3C1B7C7EB400914DE5 /* GAFAssetTextureManager.cpp in Sources */,
 				F93BEBA91B7C7C4500914DE5 /* Box2DDebugDraw.cpp in Sources */,
 				F93BEC161B7C7EB400914DE5 /* GAFFilterData.cpp in Sources */,
+				F934BD801B85844900207EC6 /* RootViewController.mm in Sources */,
 				F93BEC4A1B7C7EB400914DE5 /* TagDefineTimeline.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				F93BEC4E1B7C7EB400914DE5 /* GAFFilterManager.cpp in Sources */,

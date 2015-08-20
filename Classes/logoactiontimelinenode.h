@@ -5,13 +5,12 @@
 #include "cocos-ext.h"
 #include "cocostudio/CocoStudio.h"
 #include <string>
-
+#include "Sources/GAF.h"
 USING_NS_CC;
 USING_NS_CC_EXT;
 using namespace ui;
 using namespace cocostudio;
 using namespace cocostudio::timeline;
-
 class LogoActionTimelineNode : public ActionTimelineNode
 {
 public:
@@ -20,7 +19,6 @@ public:
     static const int STATE_MOUSE_CLOSE;
         static const int STATE_MOUSE_WORKING;
     LogoActionTimelineNode();
-    static Sprite* _normalSprite;
     static int currentState;
     static LogoActionTimelineNode* create();
    // bool init(cocos2d::Node* root, ActionTimeline* action);
@@ -42,8 +40,12 @@ public:
     void callback2(float dd);
     virtual void setActionTimeline(ActionTimeline* action);
     virtual ActionTimeline* getActionTimeline();
-void onFrameEvent(Frame* frame);
+    void setGAFPosition(Vec2 position);
+    void onFrameEvent(Frame* frame);
+private:
+    static gaf::GAFObject* _gafObj;
 protected:
+    
     cocos2d::Node* _root;
     ActionTimeline* _action;
 };
