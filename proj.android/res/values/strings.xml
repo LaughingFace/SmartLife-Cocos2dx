@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">微洗</string>
+    <string name="noConnect">未连接</string>
+    <string name="conn_set">连接设置</string>
+    <string name="not_found_device">添加设备</string>
+    <string name="device_name">微洗</string>
+    <string name="password">密  码</string>
+
+    <string name="standard">标准程序</string>
+    <string name="timingdryoff">智能烘干</string>
+    <string name="timingwash">定时清洗</string>
+    <string name="dryoff">烘干模式</string>
+    <string name="sterilization">杀菌模式</string>
+    <string name="waiteToStart">设备启动中请等待</string>
+    <string name="changeModel">更换模式</string>
+
+    <string name="not_connect_state">未连接</string>
+
+    <string name="timing_text">%d 分钟后启动！</string>
+
+    <!--时间选择的滚轮中数字格式-->
+    <string name="format">%02d</string>
+
+    <!--<string name="font_family">rtwsyuegotrialultlight.otf</string>-->
+    <string name="font_family">font.otf</string>
+
+    <string name="guidePage_check_power_hint">将插头插上电源\n灯光闪烁提示</string>
+    <string name="guidePage_check_power_btn">完成</string>
+
+    <string name="guidePage_select_device_spinner_hint">连接机型:</string>
+    <string name="guidePage_select_device_hint">手机wifi连接到微洗机</string>
+    <string name="guidePage_select_device_btn">完成</string>
+
+    <string name="guide_page_route_config_ssid_hint">wifi名称</string>
+    <string name="guide_page_route_config_pwd_hint">wifi密码</string>
+    <string name="guide_page_route_config_text_split">:</string>
+    <string name="guide_page_route_config_hint">帮助微洗机连接到家庭wifi</string>
+    <string name="guide_page_route_config_btn">完成</string>
+
+    <string name="guide_page_start_connect_hint">正在连接...</string>
+    <string name="guide_page_start_connect_btn">完成</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_text">#00ce9b</color>
+    <color name="delay_text">#fff</color>
+    <color name="tran">#00ffffff</color>
+    <color name="btn_pressed">#50ffffff</color>
+</resources>

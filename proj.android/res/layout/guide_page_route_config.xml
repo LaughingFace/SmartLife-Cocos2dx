@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_page_bk_tran"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="550"
+        >
+        <ImageView
+            android:id="@+id/route_config_circle"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+
+            android:background="@drawable/guide_page_route_config_circle"/>
+        <ImageView
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="-70dp"
+            android:id="@+id/route_config_device_icon"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/guide_page_device_icon" />
+        <FrameLayout
+            android:id="@+id/route_config_phone_arrow"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="30dp"
+
+            >
+            <ImageView android:id="@+id/route_config_phone_arrow_up"
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/guide_page_arrow1"
+                />
+            <ImageView android:id="@+id/route_config_phone_arrow_down"
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/guide_page_arrow2"
+                />
+
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/route_config_wifi_arrow"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="-70dp"
+            android:rotation="85">
+
+            <ImageView android:id="@+id/route_config_wifi_arrow_up"
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/guide_page_arrow1"
+                />
+            <ImageView android:id="@+id/route_config_wifi_arrow_down"
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/guide_page_arrow2"
+                />
+
+        </FrameLayout>
+        <ImageView
+            android:id="@+id/route_config_wifi_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-90dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/guide_page_wifi_icon"/>
+        <ImageView
+            android:id="@+id/route_config_phone"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="70dp"
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/guide_page_phone"
+            />
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"/>
+    <include
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:layout_gravity="center_horizontal"
+        layout="@layout/route_config_model_edittext"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"/>
+    <TextView
+        android:id="@+id/route_config_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        style="@style/guide_page_text_hint"
+        android:text="@string/guide_page_route_config_hint"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"/>
+    <TextView
+        android:id="@+id/route_config_finish"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_width="150dp"
+        android:layout_weight="70"
+        android:gravity="center"
+        android:background="@drawable/guide_page_route_config_btn"
+        style="@style/guide_page_text_normal"
+        android:text="@string/guidePage_select_device_btn"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"/>
+</LinearLayout>

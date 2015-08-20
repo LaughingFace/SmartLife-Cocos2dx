@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/umeng-analytics-v5.5.3-c89d53866cfb0d00a8fa8a9cf948e6bc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/classes-946f2bc74175f8277982e38a8fda7f6e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-9b5e300a5f02c9d64da8c218a27d3301.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

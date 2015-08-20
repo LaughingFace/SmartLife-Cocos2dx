@@ -1,0 +1,320 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+project_type	/home/zihao/Desktop/cocosProject/.cocos-project.json	/^    "project_type": "cpp"$/;"	function	line:2
+__cocosProject__HelloworldSceneViewConfig__	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.h	/^#define __cocosProject__HelloworldSceneViewConfig__$/;"	macro	line:10
+viewConfig	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.h	/^class viewConfig{$/;"	class	line:15
+FAN_X	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.h	/^     static const float FAN_X;$/;"	member	line:18	class:viewConfig
+FAN_Y	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.h	/^     static const float FAN_Y;$/;"	member	line:19	class:viewConfig
+LAUGHINF_MAN_X	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.h	/^    static const float LAUGHINF_MAN_X;$/;"	member	line:21	class:viewConfig
+LAUGHINF_MAN_Y	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.h	/^     static const float LAUGHINF_MAN_Y;$/;"	member	line:22	class:viewConfig
+ELASTIC_ROPE_LEFT_X	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.h	/^     static const float ELASTIC_ROPE_LEFT_X;$/;"	member	line:24	class:viewConfig
+ELASTIC_ROPE_LEFT_Y	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.h	/^     static const float ELASTIC_ROPE_LEFT_Y;$/;"	member	line:25	class:viewConfig
+WASHING_SWAP_LIMIT_Y	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.h	/^    static const float WASHING_SWAP_LIMIT_Y;$/;"	member	line:27	class:viewConfig
+WASHING_BIRTHPLACE_Y	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.h	/^    static const float WASHING_BIRTHPLACE_Y;$/;"	member	line:31	class:viewConfig
+WASHING_BIRTHPLACE_X	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.h	/^     static const float WASHING_BIRTHPLACE_X;$/;"	member	line:32	class:viewConfig
+AppDelegate	/home/zihao/Desktop/cocosProject/Classes/AppDelegate.cpp	/^AppDelegate::AppDelegate() {$/;"	function	line:6	class:AppDelegate	signature:()
+~AppDelegate	/home/zihao/Desktop/cocosProject/Classes/AppDelegate.cpp	/^AppDelegate::~AppDelegate() $/;"	function	line:10	class:AppDelegate	signature:()
+initGLContextAttrs	/home/zihao/Desktop/cocosProject/Classes/AppDelegate.cpp	/^void AppDelegate::initGLContextAttrs()$/;"	function	line:16	class:AppDelegate	signature:()
+register_all_packages	/home/zihao/Desktop/cocosProject/Classes/AppDelegate.cpp	/^static int register_all_packages()$/;"	function	line:27	file:	signature:()
+applicationDidFinishLaunching	/home/zihao/Desktop/cocosProject/Classes/AppDelegate.cpp	/^bool AppDelegate::applicationDidFinishLaunching() {$/;"	function	line:32	class:AppDelegate	signature:()
+applicationDidEnterBackground	/home/zihao/Desktop/cocosProject/Classes/AppDelegate.cpp	/^void AppDelegate::applicationDidEnterBackground() {$/;"	function	line:63	class:AppDelegate	signature:()
+applicationWillEnterForeground	/home/zihao/Desktop/cocosProject/Classes/AppDelegate.cpp	/^void AppDelegate::applicationWillEnterForeground() {$/;"	function	line:71	class:AppDelegate	signature:()
+createScene	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.cpp	/^Scene* HelloWorld::createScene()$/;"	function	line:7	class:HelloWorld	signature:()
+fengshanAnimation	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.cpp	/^ActionTimeline*  fengshanAnimation;$/;"	variable	line:22
+init	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.cpp	/^bool HelloWorld::init()$/;"	function	line:24	class:HelloWorld	signature:()
+menuCloseCallback	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.cpp	/^void HelloWorld::menuCloseCallback(Ref* pSender)$/;"	function	line:150	class:HelloWorld	signature:(Ref* pSender)
+loadViewConfig	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.cpp	/^void HelloWorld::loadViewConfig(){$/;"	function	line:158	class:HelloWorld	signature:()
+initView	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.cpp	/^void HelloWorld::initView(){$/;"	function	line:172	class:HelloWorld	signature:()
+scaleAnimation	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.cpp	/^static int scaleAnimation = 0;$/;"	variable	line:204	file:
+onUpdatePosition	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.cpp	/^void HelloWorld::onUpdatePosition(Vec2* position)$/;"	function	line:205	class:HelloWorld	signature:(Vec2* position)
+onData	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.cpp	/^void HelloWorld::onData(void* data)$/;"	function	line:233	class:HelloWorld	signature:(void* data)
+update	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.cpp	/^void HelloWorld::update(float delta)$/;"	function	line:254	class:HelloWorld	signature:(float delta)
+MODELMANAGER_H	/home/zihao/Desktop/cocosProject/Classes/modelmanager.h	/^#define MODELMANAGER_H$/;"	macro	line:2
+ModelManager	/home/zihao/Desktop/cocosProject/Classes/modelmanager.h	/^class ModelManager$/;"	class	line:8
+ModelManager	/home/zihao/Desktop/cocosProject/Classes/modelmanager.h	/^    ModelManager(){}$/;"	function	line:11	class:ModelManager	signature:()
+instance	/home/zihao/Desktop/cocosProject/Classes/modelmanager.h	/^    static ModelManager* instance;$/;"	member	line:12	class:ModelManager
+_face	/home/zihao/Desktop/cocosProject/Classes/modelmanager.h	/^    static ActionTimelineNode* _face;$/;"	member	line:13	class:ModelManager
+_working	/home/zihao/Desktop/cocosProject/Classes/modelmanager.h	/^    static ActionTimelineNode* _working;$/;"	member	line:14	class:ModelManager
+_tongue	/home/zihao/Desktop/cocosProject/Classes/modelmanager.h	/^    static ActionTimelineNode* _tongue;$/;"	member	line:15	class:ModelManager
+_rootNode	/home/zihao/Desktop/cocosProject/Classes/modelmanager.h	/^    static Node* _rootNode;$/;"	member	line:16	class:ModelManager
+_logo_normal	/home/zihao/Desktop/cocosProject/Classes/modelmanager.h	/^    static Node* _logo_normal;$/;"	member	line:17	class:ModelManager
+_world	/home/zihao/Desktop/cocosProject/Classes/modelmanager.h	/^    static b2World* _world;$/;"	member	line:18	class:ModelManager
+_mouse_close	/home/zihao/Desktop/cocosProject/Classes/modelmanager.h	/^    static  ActionTimelineNode* _mouse_close;$/;"	member	line:19	class:ModelManager
+getInstance	/home/zihao/Desktop/cocosProject/Classes/modelmanager.h	/^    static ModelManager * getInstance()$/;"	function	line:21	class:ModelManager	signature:()
+__HELLOWORLD_SCENE_H__	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.h	/^#define __HELLOWORLD_SCENE_H__$/;"	macro	line:2
+HelloWorld	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.h	/^class HelloWorld :$/;"	class	line:18
+_fanPostion	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.h	/^    Vec2 _fanPostion;$/;"	member	line:24	class:HelloWorld
+_laughingManPostion	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.h	/^    Vec2 _laughingManPostion;$/;"	member	line:25	class:HelloWorld
+_elasticRopePostion	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.h	/^    Vec2 _elasticRopePostion;$/;"	member	line:26	class:HelloWorld
+_washingBirthplacePosition	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.h	/^    Vec2 _washingBirthplacePosition;$/;"	member	line:27	class:HelloWorld
+_title	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.h	/^    Sprite* _title;\/\/标题栏。$/;"	member	line:29	class:HelloWorld
+_washing	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.h	/^    Sprite* _washing;;\/\/洗涤物。$/;"	member	line:30	class:HelloWorld
+_elasticRope	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.h	/^    ElasticRope* _elasticRope;\/\/橡皮筋效果控件。$/;"	member	line:31	class:HelloWorld
+_fan	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.h	/^    ActionTimelineNode* _fan;\/\/风扇开关。$/;"	member	line:32	class:HelloWorld
+_laughingMan	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.h	/^    LogoActionTimelineNode* _laughingMan;\/\/笑人动画控件。$/;"	member	line:33	class:HelloWorld
+_visibleSize	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.h	/^    Size _visibleSize;\/\/屏幕可是区域大小。$/;"	member	line:34	class:HelloWorld
+washingListener	/home/zihao/Desktop/cocosProject/Classes/HelloWorldScene.h	/^    EventListenerTouchOneByOne* washingListener ;$/;"	member	line:35	class:HelloWorld
+_APP_DELEGATE_H_	/home/zihao/Desktop/cocosProject/Classes/AppDelegate.h	/^#define  _APP_DELEGATE_H_$/;"	macro	line:2
+AppDelegate	/home/zihao/Desktop/cocosProject/Classes/AppDelegate.h	/^class  AppDelegate : private cocos2d::Application$/;"	class	line:11
+model	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.cpp	/^     int ElasticRopeConfig::model = 1 ;$/;"	member	line:3	class:ElasticRopeConfig	file:
+init	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.cpp	/^bool CurveRope::init()$/;"	function	line:10	class:CurveRope	signature:()
+draw	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.cpp	/^void CurveRope::draw(cocos2d::Renderer *renderer, const cocos2d::Mat4 &transform, uint32_t flags){$/;"	function	line:14	class:CurveRope	signature:(cocos2d::Renderer *renderer, const cocos2d::Mat4 &transform, uint32_t flags)
+setFixationPoint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.cpp	/^void CurveRope::setFixationPoint(Vec2& leftPoint,Vec2& rightPoint)$/;"	function	line:25	class:CurveRope	signature:(Vec2& leftPoint,Vec2& rightPoint)
+setPeak	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.cpp	/^void CurveRope::setPeak(const Vec2& peak)$/;"	function	line:30	class:CurveRope	signature:(const Vec2& peak)
+setCurvature	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.cpp	/^void CurveRope::setCurvature(int curvature)$/;"	function	line:34	class:CurveRope	signature:(int curvature)
+getLeftPoint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.cpp	/^Vec2 CurveRope::getLeftPoint(){$/;"	function	line:38	class:CurveRope	signature:()
+ElasticRopeBox2d	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/FixationPoint.h	/^namespace ElasticRopeBox2d {$/;"	namespace	line:3
+FixationPoint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/FixationPoint.h	/^    class FixationPoint : public Node{$/;"	class	line:4	namespace:ElasticRopeBox2d
+_radius	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/FixationPoint.h	/^        float _radius;$/;"	member	line:6	class:ElasticRopeBox2d::FixationPoint
+_color_r	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/FixationPoint.h	/^        GLubyte _color_r;$/;"	member	line:7	class:ElasticRopeBox2d::FixationPoint
+_color_g	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/FixationPoint.h	/^        GLubyte _color_g;$/;"	member	line:8	class:ElasticRopeBox2d::FixationPoint
+_color_b	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/FixationPoint.h	/^        GLubyte _color_b;$/;"	member	line:9	class:ElasticRopeBox2d::FixationPoint
+_color_a	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/FixationPoint.h	/^        GLubyte _color_a;$/;"	member	line:10	class:ElasticRopeBox2d::FixationPoint
+override	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/FixationPoint.h	/^        virtual void draw(Renderer *renderer, const Mat4& transform, uint32_t flags) override;$/;"	member	line:18	class:ElasticRopeBox2d::FixationPoint
+GOODS_SOCK	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^const int GoodsData::GOODS_SOCK = 1;$/;"	member	line:10	class:GoodsData	file:
+GOODS_BRIEFS	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^const int GoodsData::GOODS_BRIEFS = 2;$/;"	member	line:11	class:GoodsData	file:
+GOODS_TOWEL	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^const int GoodsData::GOODS_TOWEL = 3;$/;"	member	line:12	class:GoodsData	file:
+_goodsDataSock	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^GoodsData* GoodsData::_goodsDataSock;$/;"	member	line:14	class:GoodsData	file:
+_goodsDataBriefs	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^GoodsData* GoodsData::_goodsDataBriefs;$/;"	member	line:15	class:GoodsData	file:
+_goodsDataTowel	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^GoodsData* GoodsData::_goodsDataTowel;$/;"	member	line:16	class:GoodsData	file:
+_goodsDatas	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^std::vector<GoodsData> GoodsData::_goodsDatas;$/;"	member	line:17	class:GoodsData	file:
+_init	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^bool GoodsData::_init = false;$/;"	member	line:18	class:GoodsData	file:
+_currentId	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^int GoodsData::_currentId = -1;$/;"	member	line:19	class:GoodsData	file:
+isCreate	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^bool GoodsData::isCreate(){$/;"	function	line:20	class:GoodsData	signature:()
+setCreate	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^void GoodsData::setCreate(bool b){$/;"	function	line:23	class:GoodsData	signature:(bool b)
+setResPath	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^void GoodsData::setResPath(std::string resPath){$/;"	function	line:26	class:GoodsData	signature:(std::string resPath)
+getResPath	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^std::string GoodsData::getResPath(){$/;"	function	line:29	class:GoodsData	signature:()
+GoodsData	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^GoodsData::GoodsData(std::string resPath){$/;"	function	line:32	class:GoodsData	signature:(std::string resPath)
+getGoodsData	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^GoodsData* GoodsData::getGoodsData(int id)$/;"	function	line:35	class:GoodsData	signature:(int id)
+getGoodsDataList	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^GoodsData* GoodsData::getGoodsDataList(){$/;"	function	line:59	class:GoodsData	signature:()
+getNext	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^GoodsData* GoodsData::getNext(){$/;"	function	line:64	class:GoodsData	signature:()
+init	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.cpp	/^bool GoodsData::init(){$/;"	function	line:71	class:GoodsData	signature:()
+ElasticRopeBox2d	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^namespace ElasticRopeBox2d {$/;"	namespace	line:12
+ElasticRopeCallback	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^    class ElasticRopeCallback{$/;"	class	line:13	namespace:ElasticRopeBox2d
+ElasticRope	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^    class ElasticRope : public Node{$/;"	class	line:18	namespace:ElasticRopeBox2d
+leftOutCircle	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        FixationPoint* leftOutCircle;$/;"	member	line:20	class:ElasticRopeBox2d::ElasticRope
+leftBetweenCircle	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        FixationPoint* leftBetweenCircle;$/;"	member	line:21	class:ElasticRopeBox2d::ElasticRope
+leftInCircle	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        FixationPoint* leftInCircle;$/;"	member	line:22	class:ElasticRopeBox2d::ElasticRope
+rightOutCircle	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        FixationPoint* rightOutCircle;$/;"	member	line:24	class:ElasticRopeBox2d::ElasticRope
+rightBetweenCircle	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        FixationPoint* rightBetweenCircle;$/;"	member	line:25	class:ElasticRopeBox2d::ElasticRope
+rightInCircle	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        FixationPoint* rightInCircle;$/;"	member	line:26	class:ElasticRopeBox2d::ElasticRope
+_graphics	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        DrawNode* _graphics;$/;"	member	line:28	class:ElasticRopeBox2d::ElasticRope
+_world	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        b2World* _world;$/;"	member	line:29	class:ElasticRopeBox2d::ElasticRope
+_mouseJoint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        MouseJoint* _mouseJoint;$/;"	member	line:30	class:ElasticRopeBox2d::ElasticRope
+_sprite	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        Sprite* _sprite;$/;"	member	line:31	class:ElasticRopeBox2d::ElasticRope
+_body	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        b2Body* _body;$/;"	member	line:32	class:ElasticRopeBox2d::ElasticRope
+_curveRope	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        CurveRope* _curveRope;$/;"	member	line:33	class:ElasticRopeBox2d::ElasticRope
+_circleColorR	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        int _circleColorR;$/;"	member	line:34	class:ElasticRopeBox2d::ElasticRope
+_circleColorG	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        int _circleColorG;$/;"	member	line:35	class:ElasticRopeBox2d::ElasticRope
+_circleColorB	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        int _circleColorB;$/;"	member	line:36	class:ElasticRopeBox2d::ElasticRope
+_circleColorA	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        int _circleColorA;$/;"	member	line:37	class:ElasticRopeBox2d::ElasticRope
+_circleBetweenColorR	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        int _circleBetweenColorR;$/;"	member	line:39	class:ElasticRopeBox2d::ElasticRope
+_circleBetweenColorG	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        int _circleBetweenColorG;$/;"	member	line:40	class:ElasticRopeBox2d::ElasticRope
+_circleBetweenColorB	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        int _circleBetweenColorB;$/;"	member	line:41	class:ElasticRopeBox2d::ElasticRope
+_circleBetweenColorA	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        int _circleBetweenColorA;$/;"	member	line:42	class:ElasticRopeBox2d::ElasticRope
+_circleOutRadius	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        float _circleOutRadius;$/;"	member	line:44	class:ElasticRopeBox2d::ElasticRope
+_circleInRadius	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        float _circleInRadius;$/;"	member	line:45	class:ElasticRopeBox2d::ElasticRope
+_circleBetweenRadius	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        float _circleBetweenRadius;$/;"	member	line:46	class:ElasticRopeBox2d::ElasticRope
+_callback	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        ElasticRopeCallback* _callback;$/;"	member	line:47	class:ElasticRopeBox2d::ElasticRope
+_elasticRopePostion	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.h	/^        Vec2* _elasticRopePostion = new Vec2();$/;"	member	line:48	class:ElasticRopeBox2d::ElasticRope
+__cocosProject__GoodsData__	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.h	/^#define __cocosProject__GoodsData__$/;"	macro	line:10
+GoodsData	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.h	/^class GoodsData{$/;"	class	line:17
+_isCreate	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.h	/^     bool _isCreate = false;$/;"	member	line:19	class:GoodsData
+_init	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.h	/^     static bool _init ;$/;"	member	line:20	class:GoodsData
+_resPath	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.h	/^     std::string _resPath;$/;"	member	line:21	class:GoodsData
+_currentId	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.h	/^     static int _currentId;$/;"	member	line:22	class:GoodsData
+_goodsDatas	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.h	/^     static vector<GoodsData> _goodsDatas;$/;"	member	line:23	class:GoodsData
+_goodsDataSock	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.h	/^     static GoodsData* _goodsDataSock;$/;"	member	line:25	class:GoodsData
+_goodsDataBriefs	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.h	/^     static GoodsData* _goodsDataBriefs;$/;"	member	line:26	class:GoodsData
+_goodsDataTowel	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.h	/^     static GoodsData* _goodsDataTowel;$/;"	member	line:27	class:GoodsData
+GOODS_SOCK	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.h	/^     static const int GOODS_SOCK;$/;"	member	line:31	class:GoodsData
+GOODS_BRIEFS	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.h	/^     static const int GOODS_BRIEFS;$/;"	member	line:32	class:GoodsData
+GOODS_TOWEL	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/GoodsData.h	/^     static const int GOODS_TOWEL;$/;"	member	line:33	class:GoodsData
+ElasticRopeBox2d	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/FixationPoint.cpp	/^namespace ElasticRopeBox2d {$/;"	namespace	line:2	file:
+init	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/FixationPoint.cpp	/^    bool FixationPoint::init(){$/;"	function	line:3	class:ElasticRopeBox2d::FixationPoint	signature:()
+draw	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/FixationPoint.cpp	/^    void FixationPoint::draw(Renderer *renderer, const Mat4& transform, uint32_t flags)$/;"	function	line:7	class:ElasticRopeBox2d::FixationPoint	signature:(Renderer *renderer, const Mat4& transform, uint32_t flags)
+setColor	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/FixationPoint.cpp	/^    void FixationPoint::setColor(GLubyte r, GLubyte g, GLubyte b, GLubyte a)$/;"	function	line:13	class:ElasticRopeBox2d::FixationPoint	signature:(GLubyte r, GLubyte g, GLubyte b, GLubyte a)
+setRadius	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/FixationPoint.cpp	/^    void FixationPoint::setRadius(float r){$/;"	function	line:20	class:ElasticRopeBox2d::FixationPoint	signature:(float r)
+__cocosProject__BodyData__	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/BodyData.h	/^#define __cocosProject__BodyData__$/;"	macro	line:10
+BodyData	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/BodyData.h	/^class BodyData{$/;"	class	line:15
+BODY_PEAK	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/BodyData.h	/^    static const int BODY_PEAK = 1;$/;"	member	line:17	class:BodyData
+BODY_CIRCLE	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/BodyData.h	/^    static const int BODY_CIRCLE = 2;$/;"	member	line:18	class:BodyData
+data_id	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/BodyData.h	/^    int data_id;$/;"	member	line:19	class:BodyData
+data	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/BodyData.h	/^    void* data;$/;"	member	line:20	class:BodyData
+__cocosProject__CurveRope__	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.h	/^#define __cocosProject__CurveRope__$/;"	macro	line:10
+CurveRope	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.h	/^class CurveRope : public Node$/;"	class	line:16
+_leftPoint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.h	/^    Vec2 _leftPoint;$/;"	member	line:19	class:CurveRope
+_rightPoint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.h	/^    Vec2 _rightPoint;$/;"	member	line:20	class:CurveRope
+_peak	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.h	/^    Vec2 _peak;\/\/顶点$/;"	member	line:21	class:CurveRope
+_controlLeftPoint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.h	/^    Vec2 _controlLeftPoint;$/;"	member	line:22	class:CurveRope
+_controlRightPoint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.h	/^    Vec2 _controlRightPoint;$/;"	member	line:23	class:CurveRope
+_curvature	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.h	/^    int _curvature = 100;$/;"	member	line:24	class:CurveRope
+override	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/CurveRope.h	/^    virtual void draw(Renderer *renderer, const Mat4& transform, uint32_t flags) override;$/;"	member	line:32	class:CurveRope
+ElasticRopeBox2d	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^namespace ElasticRopeBox2d {$/;"	namespace	line:8	file:
+onUpdatePosition	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^    void ElasticRopeCallback::onUpdatePosition(cocos2d::Vec2 *position){$/;"	function	line:9	class:ElasticRopeBox2d::ElasticRopeCallback	signature:(cocos2d::Vec2 *position)
+onData	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^    void ElasticRopeCallback::onData(void *data){$/;"	function	line:12	class:ElasticRopeBox2d::ElasticRopeCallback	signature:(void *data)
+_leftPoint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^    static Vec2 _leftPoint;$/;"	member	line:15	namespace:ElasticRopeBox2d	file:
+_rightPoint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^     static Vec2 _rightPoint;$/;"	member	line:16	namespace:ElasticRopeBox2d	file:
+setVertices	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^     void ElasticRope::setVertices(Vec2 leftPoint, Vec2 rightPoint){$/;"	function	line:17	class:ElasticRopeBox2d::ElasticRope	signature:(Vec2 leftPoint, Vec2 rightPoint)
+init	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^     bool ElasticRope::init(){$/;"	function	line:22	class:ElasticRopeBox2d::ElasticRope	signature:()
+drawPoint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^    void ElasticRope::drawPoint()$/;"	function	line:86	class:ElasticRopeBox2d::ElasticRope	signature:()
+drawRope	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^     void ElasticRope::drawRope()$/;"	function	line:122	class:ElasticRopeBox2d::ElasticRope	signature:()
+update	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^     void ElasticRope::update(float delta){$/;"	function	line:151	class:ElasticRopeBox2d::ElasticRope	signature:(float delta)
+initStyle	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^     void ElasticRope::initStyle(int id){$/;"	function	line:185	class:ElasticRopeBox2d::ElasticRope	signature:(int id)
+setElasticRopeCallback	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^    void ElasticRope::setElasticRopeCallback(ElasticRopeBox2d::ElasticRopeCallback *callback)$/;"	function	line:220	class:ElasticRopeBox2d::ElasticRope	signature:(ElasticRopeBox2d::ElasticRopeCallback *callback)
+getMovePermission	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^    MouseJoint* ElasticRope::getMovePermission(){$/;"	function	line:224	class:ElasticRopeBox2d::ElasticRope	signature:()
+removeB2body	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^    void ElasticRope::removeB2body(){$/;"	function	line:227	class:ElasticRopeBox2d::ElasticRope	signature:()
+createB2body	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^    b2Body* ElasticRope::createB2body(Vec2 position)$/;"	function	line:234	class:ElasticRopeBox2d::ElasticRope	signature:(Vec2 position)
+style1	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^    void ElasticRope::style1(){$/;"	function	line:247	class:ElasticRopeBox2d::ElasticRope	signature:()
+style2	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRope.cpp	/^    void ElasticRope::style2(){$/;"	function	line:251	class:ElasticRopeBox2d::ElasticRope	signature:()
+MouseJoint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/MouseJoint.h	/^class MouseJoint$/;"	class	line:7
+_joint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/MouseJoint.h	/^    b2MouseJoint* _joint;$/;"	member	line:10	class:MouseJoint
+_body	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/MouseJoint.h	/^    b2Body* _body;$/;"	member	line:11	class:MouseJoint
+_world	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/MouseJoint.h	/^    b2World* _world;$/;"	member	line:12	class:MouseJoint
+_isAllowMove	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/MouseJoint.h	/^    bool _isAllowMove = false;$/;"	member	line:13	class:MouseJoint
+__Box2DFirst__Box2DHelper__	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DHelper.h	/^#define __Box2DFirst__Box2DHelper__$/;"	macro	line:10
+PTM_RATIO	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DHelper.h	/^#define PTM_RATIO /;"	macro	line:16
+Box2DHelper	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DHelper.h	/^class Box2DHelper$/;"	class	line:18
+__Box2DFirst__Box2DDebugDraw__	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DDebugDraw.h	/^#define __Box2DFirst__Box2DDebugDraw__$/;"	macro	line:10
+Box2DDebugDraw	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DDebugDraw.h	/^class Box2DDebugDraw:public b2Draw$/;"	class	line:16
+_ratio	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DDebugDraw.h	/^    float32 _ratio;$/;"	member	line:19	class:Box2DDebugDraw
+_graphics	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DDebugDraw.h	/^    cocos2d::DrawNode* _graphics;$/;"	member	line:21	class:Box2DDebugDraw
+createWorld	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DHelper.cpp	/^b2World* Box2DHelper::createWorld()$/;"	function	line:11	class:Box2DHelper	signature:()
+createBox	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DHelper.cpp	/^b2Body* Box2DHelper::createBox(b2World* world,float posX,float posY,float width,float height,bool isStatic,void* userData)$/;"	function	line:18	class:Box2DHelper	signature:(b2World* world,float posX,float posY,float width,float height,bool isStatic,void* userData)
+createCircle	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DHelper.cpp	/^b2Body* Box2DHelper::createCircle(b2World* world,float posX,float posY, float radius, bool isStatic, void* userData){$/;"	function	line:45	class:Box2DHelper	signature:(b2World* world,float posX,float posY, float radius, bool isStatic, void* userData)
+createWrapWall	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DHelper.cpp	/^void Box2DHelper::createWrapWall(b2World* world,float width,float height,void* userData)$/;"	function	line:72	class:Box2DHelper	signature:(b2World* world,float width,float height,void* userData)
+createEdge	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DHelper.cpp	/^b2Body* Box2DHelper::createEdge(b2World* world,float posX,float posY,float posAX,float posAY,float posBX,float posBY,bool isStatic, void* userData)$/;"	function	line:84	class:Box2DHelper	signature:(b2World* world,float posX,float posY,float posAX,float posAY,float posBX,float posBY,bool isStatic, void* userData)
+createChain	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DHelper.cpp	/^b2Body* Box2DHelper::createChain(b2World* world,float posX,float posY,b2Vec2* vertices,int count,bool isStatic, void* userData)$/;"	function	line:110	class:Box2DHelper	signature:(b2World* world,float posX,float posY,b2Vec2* vertices,int count,bool isStatic, void* userData)
+RopeJoin	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/RopeJoin.h	/^class RopeJoin$/;"	class	line:5
+_height	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/RopeJoin.h	/^        float _height;$/;"	member	line:8	class:RopeJoin
+_joint	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/RopeJoin.h	/^        b2MouseJoint* _joint;$/;"	member	line:9	class:RopeJoin
+_body	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/RopeJoin.h	/^        b2Body* _body;$/;"	member	line:10	class:RopeJoin
+Box2DDebugDraw	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DDebugDraw.cpp	/^Box2DDebugDraw::Box2DDebugDraw(cocos2d::DrawNode* graphics)$/;"	function	line:13	class:Box2DDebugDraw	signature:(cocos2d::DrawNode* graphics)
+Box2DDebugDraw	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DDebugDraw.cpp	/^Box2DDebugDraw::Box2DDebugDraw( cocos2d::DrawNode* graphics,float32 ratio)$/;"	function	line:18	class:Box2DDebugDraw	signature:( cocos2d::DrawNode* graphics,float32 ratio)
+DrawPolygon	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DDebugDraw.cpp	/^void Box2DDebugDraw::DrawPolygon(const b2Vec2* vertices, int32 vertexCount, const b2Color& color)$/;"	function	line:24	class:Box2DDebugDraw	signature:(const b2Vec2* vertices, int32 vertexCount, const b2Color& color)
+DrawSolidPolygon	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DDebugDraw.cpp	/^void Box2DDebugDraw::DrawSolidPolygon(const b2Vec2* vertices, int32 vertexCount, const b2Color& color)$/;"	function	line:39	class:Box2DDebugDraw	signature:(const b2Vec2* vertices, int32 vertexCount, const b2Color& color)
+DrawCircle	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DDebugDraw.cpp	/^void Box2DDebugDraw::DrawCircle(const b2Vec2& center, float32 radius, const b2Color& color)$/;"	function	line:55	class:Box2DDebugDraw	signature:(const b2Vec2& center, float32 radius, const b2Color& color)
+DrawSolidCircle	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DDebugDraw.cpp	/^void Box2DDebugDraw::DrawSolidCircle(const b2Vec2& center, float32 radius, const b2Vec2& axis, const b2Color& color)$/;"	function	line:64	class:Box2DDebugDraw	signature:(const b2Vec2& center, float32 radius, const b2Vec2& axis, const b2Color& color)
+DrawSegment	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DDebugDraw.cpp	/^void Box2DDebugDraw::DrawSegment(const b2Vec2& p1, const b2Vec2& p2, const b2Color& color)$/;"	function	line:79	class:Box2DDebugDraw	signature:(const b2Vec2& p1, const b2Vec2& p2, const b2Color& color)
+DrawTransform	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/Box2DDebugDraw.cpp	/^void Box2DDebugDraw::DrawTransform(const b2Transform& xf)$/;"	function	line:89	class:Box2DDebugDraw	signature:(const b2Transform& xf)
+create	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/RopeJoin.cpp	/^void RopeJoin::create(b2World* _world,Vec2* leftPoint,Vec2* rightPoint){$/;"	function	line:6	class:RopeJoin	signature:(b2World* _world,Vec2* leftPoint,Vec2* rightPoint)
+create	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/MouseJoint.cpp	/^void MouseJoint::create(b2World* world,Vec2* leftPoint,Vec2* rightPoint){$/;"	function	line:4	class:MouseJoint	signature:(b2World* world,Vec2* leftPoint,Vec2* rightPoint)
+create	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/MouseJoint.cpp	/^void MouseJoint::create(b2World *world, b2Body *body){$/;"	function	line:15	class:MouseJoint	signature:(b2World *world, b2Body *body)
+move	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/MouseJoint.cpp	/^void MouseJoint::move(const cocos2d::Vec2& movePosition)$/;"	function	line:19	class:MouseJoint	signature:(const cocos2d::Vec2& movePosition)
+endMove	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/MouseJoint.cpp	/^void MouseJoint::endMove(){$/;"	function	line:43	class:MouseJoint	signature:()
+setBody	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/MouseJoint.cpp	/^void MouseJoint::setBody(b2Body *body)$/;"	function	line:53	class:MouseJoint	signature:(b2Body *body)
+isAllowMove	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/MyBox2d/MouseJoint.cpp	/^bool MouseJoint::isAllowMove(){$/;"	function	line:57	class:MouseJoint	signature:()
+style1	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^class style1{$/;"	class	line:1
+ROPE_POINT_CIRCLE_COLOR_R	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_COLOR_R = 221;$/;"	member	line:3	class:style1
+ROPE_POINT_CIRCLE_COLOR_G	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_COLOR_G = 19;$/;"	member	line:4	class:style1
+ROPE_POINT_CIRCLE_COLOR_B	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_COLOR_B = 123;$/;"	member	line:5	class:style1
+ROPE_POINT_CIRCLE_COLOR_A	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_COLOR_A = 255;$/;"	member	line:6	class:style1
+ROPE_POINT_CIRCLE_BETWEEN_COLOR_R	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_BETWEEN_COLOR_R = 255;$/;"	member	line:8	class:style1
+ROPE_POINT_CIRCLE_BETWEEN_COLOR_G	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_BETWEEN_COLOR_G = 255;$/;"	member	line:9	class:style1
+ROPE_POINT_CIRCLE_BETWEEN_COLOR_B	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_BETWEEN_COLOR_B = 255;$/;"	member	line:10	class:style1
+ROPE_POINT_CIRCLE_BETWEEN_COLOR_A	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_BETWEEN_COLOR_A = 255;$/;"	member	line:11	class:style1
+ROPE_POINT_OUT_RADIUS	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_OUT_RADIUS = 20.0f;$/;"	member	line:13	class:style1
+ROPE_POINT_BETWEEN_RADIUS	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_BETWEEN_RADIUS = 15.0f;$/;"	member	line:14	class:style1
+ROPE_POINT_IN_RADIUS	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int  ROPE_POINT_IN_RADIUS = 10.0f;$/;"	member	line:15	class:style1
+style2	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^class style2{$/;"	class	line:17
+ROPE_POINT_CIRCLE_COLOR_R	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_COLOR_R = 53;$/;"	member	line:19	class:style2
+ROPE_POINT_CIRCLE_COLOR_G	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_COLOR_G = 187;$/;"	member	line:20	class:style2
+ROPE_POINT_CIRCLE_COLOR_B	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_COLOR_B = 199;$/;"	member	line:21	class:style2
+ROPE_POINT_CIRCLE_COLOR_A	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_COLOR_A = 255;$/;"	member	line:22	class:style2
+ROPE_POINT_CIRCLE_BETWEEN_COLOR_R	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_BETWEEN_COLOR_R = 255;$/;"	member	line:24	class:style2
+ROPE_POINT_CIRCLE_BETWEEN_COLOR_G	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_BETWEEN_COLOR_G = 255;$/;"	member	line:25	class:style2
+ROPE_POINT_CIRCLE_BETWEEN_COLOR_B	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_BETWEEN_COLOR_B = 255;$/;"	member	line:26	class:style2
+ROPE_POINT_CIRCLE_BETWEEN_COLOR_A	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_CIRCLE_BETWEEN_COLOR_A = 255;$/;"	member	line:27	class:style2
+ROPE_POINT_OUT_RADIUS	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_OUT_RADIUS = 20.0f;$/;"	member	line:29	class:style2
+ROPE_POINT_BETWEEN_RADIUS	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int ROPE_POINT_BETWEEN_RADIUS = 15.0f;$/;"	member	line:30	class:style2
+ROPE_POINT_IN_RADIUS	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static const int  ROPE_POINT_IN_RADIUS = 10.0f;$/;"	member	line:31	class:style2
+ElasticRopeConfig	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^class ElasticRopeConfig{$/;"	class	line:33
+model	/home/zihao/Desktop/cocosProject/Classes/ElasticRope/ElasticRopeConfig.h	/^    static int model ;$/;"	member	line:35	class:ElasticRopeConfig
+__cocosProject__LocationAnalyst__	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.h	/^#define __cocosProject__LocationAnalyst__$/;"	macro	line:11
+WASHING_CHANGE	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.h	/^#define WASHING_CHANGE /;"	macro	line:17
+WASHING_SELECT	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.h	/^#define WASHING_SELECT /;"	macro	line:18
+WASHING_NOTHING	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.h	/^#define WASHING_NOTHING /;"	macro	line:19
+WASHING_REBIRTH	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.h	/^#define WASHING_REBIRTH /;"	macro	line:20
+WASHING_EAT_FOOD	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.h	/^#define WASHING_EAT_FOOD /;"	macro	line:21
+WASHING_EATED_FOOD	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.h	/^#define WASHING_EATED_FOOD /;"	macro	line:22
+LocationAnalyst	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.h	/^class LocationAnalyst{$/;"	class	line:24
+isTouch	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.h	/^    static bool isTouch;$/;"	member	line:26	class:LocationAnalyst
+STATE_REBIRTH	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.h	/^    static const int STATE_REBIRTH ;\/\/我要重生$/;"	member	line:27	class:LocationAnalyst
+STATE_FOOD	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.h	/^    static const int STATE_FOOD ;\/\/我是食物$/;"	member	line:28	class:LocationAnalyst
+state	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.h	/^    static int state;\/\/洗涤物状态$/;"	member	line:29	class:LocationAnalyst
+instance	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^ModelManager* ModelManager::instance;$/;"	member	line:11	class:ModelManager	file:
+_face	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^ ActionTimelineNode* ModelManager::_face;$/;"	member	line:12	class:ModelManager	file:
+_working	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^ ActionTimelineNode* ModelManager::_working;$/;"	member	line:13	class:ModelManager	file:
+_tongue	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^ ActionTimelineNode* ModelManager::_tongue;$/;"	member	line:14	class:ModelManager	file:
+_mouse_close	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^  ActionTimelineNode* ModelManager::_mouse_close;$/;"	member	line:15	class:ModelManager	file:
+_logo_normal	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^ Node* ModelManager::_logo_normal;$/;"	member	line:16	class:ModelManager	file:
+_rootNode	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^ Node* ModelManager::_rootNode;$/;"	member	line:17	class:ModelManager	file:
+_world	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^ b2World* ModelManager::_world;$/;"	member	line:18	class:ModelManager	file:
+tag	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^int tag = 0;$/;"	variable	line:19
+setAction	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^void ModelManager::setAction(Node* rootNode,ActionTimelineNode * face, ActionTimelineNode *working, ActionTimelineNode *tongue,Node* logo_normal,ActionTimelineNode * mouse_close)$/;"	function	line:20	class:ModelManager	signature:(Node* rootNode,ActionTimelineNode * face, ActionTimelineNode *working, ActionTimelineNode *tongue,Node* logo_normal,ActionTimelineNode * mouse_close)
+onLine	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^void ModelManager::onLine ()$/;"	function	line:31	class:ModelManager	signature:()
+offLine	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^void ModelManager::offLine()$/;"	function	line:36	class:ModelManager	signature:()
+onModelStart	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^void ModelManager::onModelStart()$/;"	function	line:41	class:ModelManager	signature:()
+onProcessing	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^void ModelManager::onProcessing()$/;"	function	line:56	class:ModelManager	signature:()
+setWorld	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^void ModelManager::setWorld(b2World *world){$/;"	function	line:60	class:ModelManager	signature:(b2World *world)
+onFinish	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^void ModelManager::onFinish()$/;"	function	line:64	class:ModelManager	signature:()
+onInterupt	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^void ModelManager::onInterupt()$/;"	function	line:69	class:ModelManager	signature:()
+faillOnStart	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^void ModelManager::faillOnStart()$/;"	function	line:74	class:ModelManager	signature:()
+startStandard	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^void ModelManager::startStandard ()$/;"	function	line:79	class:ModelManager	signature:()
+startDryoff	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^void ModelManager::startDryoff ()$/;"	function	line:84	class:ModelManager	signature:()
+callJavaFun	/home/zihao/Desktop/cocosProject/Classes/modelmanager.cpp	/^void ModelManager::callJavaFun (const char *className, const char *methodName,const char *paramCode)$/;"	function	line:89	class:ModelManager	signature:(const char *className, const char *methodName,const char *paramCode)
+STATE_NORMAL	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^ const int LogoActionTimelineNode::STATE_NORMAL = 0 ;$/;"	member	line:3	class:LogoActionTimelineNode	file:
+STATE_MOUSE_OPEN	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^ const int LogoActionTimelineNode::STATE_MOUSE_OPEN = 1 ;$/;"	member	line:4	class:LogoActionTimelineNode	file:
+STATE_MOUSE_CLOSE	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^ const int LogoActionTimelineNode::STATE_MOUSE_CLOSE = 2;$/;"	member	line:5	class:LogoActionTimelineNode	file:
+currentState	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^int LogoActionTimelineNode::currentState = LogoActionTimelineNode::STATE_NORMAL;$/;"	member	line:6	class:LogoActionTimelineNode	file:
+performMouseOpenAnim	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^void LogoActionTimelineNode::performMouseOpenAnim(bool loop){$/;"	function	line:7	class:LogoActionTimelineNode	signature:(bool loop)
+performMouseCloseAnim	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^void LogoActionTimelineNode::performMouseCloseAnim(bool loop){$/;"	function	line:11	class:LogoActionTimelineNode	signature:(bool loop)
+performWorkingAnim	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^void LogoActionTimelineNode::performWorkingAnim(bool loop){$/;"	function	line:15	class:LogoActionTimelineNode	signature:(bool loop)
+performTongueAnim	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^void LogoActionTimelineNode::performTongueAnim(bool loop){$/;"	function	line:20	class:LogoActionTimelineNode	signature:(bool loop)
+performMouseAnim	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^void LogoActionTimelineNode::performMouseAnim(float percent){$/;"	function	line:26	class:LogoActionTimelineNode	signature:(float percent)
+performWorkingAnim	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^void LogoActionTimelineNode::performWorkingAnim(float percent){$/;"	function	line:32	class:LogoActionTimelineNode	signature:(float percent)
+performTongueAnim	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^void LogoActionTimelineNode::performTongueAnim(float percent){$/;"	function	line:37	class:LogoActionTimelineNode	signature:(float percent)
+create	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^LogoActionTimelineNode* LogoActionTimelineNode::create()$/;"	function	line:42	class:LogoActionTimelineNode	signature:()
+LogoActionTimelineNode	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^LogoActionTimelineNode::LogoActionTimelineNode()$/;"	function	line:56	class:LogoActionTimelineNode	signature:()
+init	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^bool LogoActionTimelineNode::init(Node* root, ActionTimeline* action)$/;"	function	line:62	class:LogoActionTimelineNode	signature:(Node* root, ActionTimeline* action)
+setRoot	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^void LogoActionTimelineNode::setRoot(cocos2d::Node* root)$/;"	function	line:76	class:LogoActionTimelineNode	signature:(cocos2d::Node* root)
+getRoot	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^cocos2d::Node* LogoActionTimelineNode::getRoot()$/;"	function	line:80	class:LogoActionTimelineNode	signature:()
+setActionTimeline	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^void LogoActionTimelineNode::setActionTimeline(ActionTimeline* action)$/;"	function	line:85	class:LogoActionTimelineNode	signature:(ActionTimeline* action)
+getActionTimeline	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.cpp	/^ActionTimeline* LogoActionTimelineNode::getActionTimeline()$/;"	function	line:89	class:LogoActionTimelineNode	signature:()
+FAN_X	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.cpp	/^const float viewConfig::FAN_X = 0.82f;$/;"	member	line:8	class:viewConfig	file:
+FAN_Y	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.cpp	/^const float viewConfig::FAN_Y = 0.8f;$/;"	member	line:9	class:viewConfig	file:
+LAUGHINF_MAN_X	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.cpp	/^const float viewConfig::LAUGHINF_MAN_X = 0.5f;$/;"	member	line:10	class:viewConfig	file:
+LAUGHINF_MAN_Y	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.cpp	/^const float viewConfig::LAUGHINF_MAN_Y = 0.7f;$/;"	member	line:11	class:viewConfig	file:
+WASHING_BIRTHPLACE_Y	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.cpp	/^const float viewConfig::WASHING_BIRTHPLACE_Y = 0.5f;$/;"	member	line:12	class:viewConfig	file:
+WASHING_BIRTHPLACE_X	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.cpp	/^const float viewConfig::WASHING_BIRTHPLACE_X = 0.5f;$/;"	member	line:13	class:viewConfig	file:
+ELASTIC_ROPE_LEFT_X	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.cpp	/^const float viewConfig::ELASTIC_ROPE_LEFT_X = 0.2f;$/;"	member	line:14	class:viewConfig	file:
+ELASTIC_ROPE_LEFT_Y	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.cpp	/^const float viewConfig::ELASTIC_ROPE_LEFT_Y = 0.3f;$/;"	member	line:15	class:viewConfig	file:
+WASHING_SWAP_LIMIT_Y	/home/zihao/Desktop/cocosProject/Classes/HelloworldSceneViewConfig.cpp	/^const float viewConfig::WASHING_SWAP_LIMIT_Y = 0.1f;$/;"	member	line:16	class:viewConfig	file:
+loadMouseNode	/home/zihao/Desktop/cocosProject/Classes/logoanimationloader.cpp	/^ActionTimelineNode* LogoAnimationLoader::loadMouseNode ()$/;"	function	line:3	class:LogoAnimationLoader	signature:()
+loadMouseCloseNode	/home/zihao/Desktop/cocosProject/Classes/logoanimationloader.cpp	/^ActionTimelineNode* LogoAnimationLoader::loadMouseCloseNode()$/;"	function	line:13	class:LogoAnimationLoader	signature:()
+loadFengshanNode	/home/zihao/Desktop/cocosProject/Classes/logoanimationloader.cpp	/^ActionTimelineNode* LogoAnimationLoader::loadFengshanNode ()$/;"	function	line:22	class:LogoAnimationLoader	signature:()
+loadWorkingNode	/home/zihao/Desktop/cocosProject/Classes/logoanimationloader.cpp	/^ ActionTimelineNode* LogoAnimationLoader::loadWorkingNode()$/;"	function	line:38	class:LogoAnimationLoader	signature:()
+loadTongueNode	/home/zihao/Desktop/cocosProject/Classes/logoanimationloader.cpp	/^ ActionTimelineNode* LogoAnimationLoader::loadTongueNode()$/;"	function	line:48	class:LogoAnimationLoader	signature:()
+LOGOACTIONTIMELINENODE_H	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.h	/^#define LOGOACTIONTIMELINENODE_H$/;"	macro	line:2
+LogoActionTimelineNode	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.h	/^class LogoActionTimelineNode : public ActionTimelineNode$/;"	class	line:15
+STATE_NORMAL	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.h	/^    static const int STATE_NORMAL;$/;"	member	line:18	class:LogoActionTimelineNode
+STATE_MOUSE_OPEN	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.h	/^    static const int STATE_MOUSE_OPEN ;$/;"	member	line:19	class:LogoActionTimelineNode
+STATE_MOUSE_CLOSE	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.h	/^    static const int STATE_MOUSE_CLOSE;$/;"	member	line:20	class:LogoActionTimelineNode
+currentState	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.h	/^    static int currentState;$/;"	member	line:22	class:LogoActionTimelineNode
+_root	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.h	/^    cocos2d::Node* _root;$/;"	member	line:44	class:LogoActionTimelineNode
+_action	/home/zihao/Desktop/cocosProject/Classes/logoactiontimelinenode.h	/^    ActionTimeline* _action;$/;"	member	line:45	class:LogoActionTimelineNode
+isTouch	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.cpp	/^bool LocationAnalyst::isTouch = true;$/;"	member	line:11	class:LocationAnalyst	file:
+state	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.cpp	/^int LocationAnalyst::state = WASHING_NOTHING;$/;"	member	line:12	class:LocationAnalyst	file:
+STATE_FOOD	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.cpp	/^const int LocationAnalyst::STATE_FOOD = 10;$/;"	member	line:13	class:LocationAnalyst	file:
+STATE_REBIRTH	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.cpp	/^const int LocationAnalyst::STATE_REBIRTH = 11;$/;"	member	line:14	class:LocationAnalyst	file:
+doWhat	/home/zihao/Desktop/cocosProject/Classes/LocationAnalyst.cpp	/^int LocationAnalyst::doWhat(Vec2 location,int who){$/;"	function	line:15	class:LocationAnalyst	signature:(Vec2 location,int who)
+LOGOANIMATIONLOADER_H	/home/zihao/Desktop/cocosProject/Classes/logoanimationloader.h	/^#define LOGOANIMATIONLOADER_H$/;"	macro	line:2
+LogoAnimationLoader	/home/zihao/Desktop/cocosProject/Classes/logoanimationloader.h	/^class LogoAnimationLoader$/;"	class	line:18
+LogoAnimationLoader	/home/zihao/Desktop/cocosProject/Classes/logoanimationloader.h	/^        LogoAnimationLoader(){}$/;"	function	line:21	class:LogoAnimationLoader	signature:()
+main	/home/zihao/Desktop/cocosProject/proj.linux/main.cpp	/^int main(int argc, char **argv)$/;"	function	line:10	signature:(int argc, char **argv)
+viewController	/home/zihao/Desktop/cocosProject/proj.ios_mac/ios/AppController.h	/^@property(nonatomic, readonly) RootViewController* viewController;$/;"	variable	line:9
+s_sharedApplication	/home/

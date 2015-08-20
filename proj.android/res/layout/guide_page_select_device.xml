@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.zihao.cocosProject"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="550"
+        >
+        <ImageView
+            android:id="@+id/select_device_circle"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+
+            android:background="@drawable/guide_page_select_device_circle"/>
+        <ImageView
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="-40dp"
+            android:id="@+id/select_device_wifi_text"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/guide_page_wifi_text_icon" />
+        <ImageView android:id="@+id/select_device_arrow1"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/guide_page_arrow1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+         />
+        <ImageView android:id="@+id/select_device_arrow2"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:rotation="180"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/guide_page_arrow2"
+            />
+        <ImageView
+            android:id="@+id/select_device_phone"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="70dp"
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/guide_page_phone"/>
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"/>
+    <TextView
+
+        android:id="@+id/select_device_spinner"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:gravity="left|center_vertical"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:text="@string/guidePage_select_device_spinner_hint"
+        android:background="@drawable/guide_page_select_device_spinner"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"/>
+    <TextView
+
+        android:id="@+id/check_power_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="@string/guidePage_select_device_hint"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"/>
+    <TextView
+
+        android:id="@+id/check_power_finish"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_width="150dp"
+        android:layout_weight="40"
+        android:gravity="center"
+        android:background="@drawable/guide_page_select_device_btn"
+        android:text="@string/guidePage_select_device_btn"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"/>
+</LinearLayout>

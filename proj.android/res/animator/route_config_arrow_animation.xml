@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="together">
+
+    <set android:ordering="together">
+        <objectAnimator
+            android:repeatCount="infinite"
+            android:repeatMode="reverse"
+            android:propertyName="translationX"
+            android:valueFrom="5"
+            android:valueTo="-5dp"
+            android:valueType="floatType"/>
+        <objectAnimator
+            android:repeatCount="infinite"
+            android:repeatMode="reverse"
+            android:propertyName="translationY"
+            android:valueFrom="5"
+            android:valueTo="-5dp"
+            android:valueType="floatType"/>
+    </set>
+
+    <set android:ordering="together">
+        <objectAnimator
+            android:repeatCount="infinite"
+            android:repeatMode="reverse"
+            android:propertyName="translationX"
+            android:valueFrom="-5"
+            android:valueTo="5dp"
+            android:valueType="floatType"/>
+        <objectAnimator
+            android:repeatCount="infinite"
+            android:repeatMode="reverse"
+            android:propertyName="translationY"
+            android:valueFrom="-5"
+            android:valueTo="5dp"
+            android:valueType="floatType"/>
+    </set>
+</set>

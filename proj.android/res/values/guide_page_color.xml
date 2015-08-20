@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="guide_page_bk">#fbf9eb</color>
+    <color name="guide_page_bk_tran">#00ffffff</color>
+    <color name="guide_page_hint">#75c5f0</color>
+    <color name="guide_page_select_device_theme">#ff00aa</color>
+    <color name="guide_page_route_config_theme">#ee9a69</color>
+    <color name="guide_page_start_connect_theme">#b8dc7c</color>
+
+
+</resources>

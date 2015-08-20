@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guide_page_route_config_edittext"
+    android:padding="2dp"
+                android:paddingLeft="8dp"
+    android:id="@+id/route_config_edittext"
+    >
+    <TextView
+            android:paddingLeft="8dp"
+        android:id="@+id/route_config_ssid_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/guide_page_text_normal"
+        android:text="@string/guide_page_route_config_ssid_hint"/>
+    <TextView
+        android:id="@+id/route_config_edittext_ssid_cursor"
+        android:layout_toRightOf="@id/route_config_ssid_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/guide_page_text_normal"
+        android:text="@string/guide_page_route_config_text_split"/>
+
+    <EditText
+        android:focusable="true"
+        android:background="#00ffffff"
+        style="@style/guide_page_text_normal"
+        android:layout_alignBottom="@id/route_config_ssid_hint"
+        android:layout_toRightOf="@id/route_config_edittext_ssid_cursor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+        android:id="@+id/route_config_edittext_split"
+        android:layout_below="@id/route_config_ssid_hint"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/split_line"/>
+
+
+    <TextView
+            android:paddingLeft="8dp"
+        android:id="@+id/route_config_pwd_hint"
+        android:layout_below="@id/route_config_edittext_split"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/guide_page_text_normal"
+        android:text="@string/guide_page_route_config_pwd_hint"/>
+    <TextView
+        android:id="@+id/route_config_edittext_pwd_cursor"
+        android:layout_toRightOf="@id/route_config_pwd_hint"
+        android:layout_below="@id/route_config_edittext_split"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/guide_page_text_normal"
+        android:text="@string/guide_page_route_config_text_split"/>
+    <EditText
+        android:focusable="true"
+        android:background="#00ffffff"
+        style="@style/guide_page_text_normal"
+        android:layout_alignBottom="@id/route_config_pwd_hint"
+        android:id="@+id/route_config_edittext_pwd"
+        android:layout_below="@id/route_config_edittext_split"
+        android:layout_toRightOf="@id/route_config_edittext_pwd_cursor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

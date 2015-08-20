@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--带旋转动画的ImageView-->
+    <declare-styleable name="rotateImageView">
+        <attr name="duration" format="integer"/>
+        <attr name="repeatCount" format="integer"/>
+        <attr name="fromDegrees" format="integer"/>
+        <attr name="toDegrees" format="integer"/>
+        <attr name="startOnLoad" format="boolean"/>
+        <attr name="innerMaxWidth" format="integer"/>
+        <attr name="innerMaxHeight" format="integer"/>
+        <attr name="interpolator" format="enum">
+            <enum name="linear" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!--可呼吸水波纹-->
+    <declare-styleable name="waterRipplesView">
+        <attr name="waveCount" format="integer"/>
+        <attr name="waveOnLoad" format="boolean"/>
+        <attr name="canDrag" format="boolean"/>
+       <!-- <attr name="breathing" format="boolean"/>-->
+        <attr name="waveColor" format="color"/>
+    </declare-styleable>
+
+    <!--圆形布局-->
+    <declare-styleable name="CircleLayout">
+        <attr name="innerRadius" format="dimension" />
+        <attr name="sliceDivider" format="reference|color" />
+        <attr name="innerCircle" format="reference|color" />
+        <attr name="angleOffset" format="float" />
+        <attr name="angleRange" format="float" />
+        <attr name="layoutMode">
+            <enum name="normal" value="1" />
+            <enum name="pie" value="2" />
+        </attr>
+        <attr name="dividerWidth" format="dimension" />
+    </declare-styleable>
+
+    <!--侧滑菜单-->
+    <declare-styleable name="OnsideSlideMenuLayout">
+        <attr name="showingWidth" format="dimension"/>
+        <attr name="showingHeight" format="dimension"/>
+        <attr name="locationX" format="dimension"/>
+        <attr name="locationY" format="dimension"/>
+        <attr name="menu" format="reference"/>
+        <attr name="gravity" format="enum">
+            <enum name="LEFT" value="3"/>
+            <enum name="RIGHT" value="5"/>
+            <enum name="BOTTOM" value="80"/>
+            <enum name="TOP" value="48"/>
+        </attr>
+    </declare-styleable>
+
+    <!--开关按钮-->
+    <declare-styleable name="SwitchButton">
+        <attr name="frameDrawable" format="reference|color"/>
+        <attr name="stateDrawable" format="reference|color"/>
+        <attr name="stateMaskDrawable" format="reference|color"/>
+        <attr name="sliderDrawable" format="reference|color"/>
+        <attr name="withTextInterval" format="dimension"/>
+    </declare-styleable>
+
+    <!--带水波的球形进度条-->
+    <declare-styleable name="WaterWaveProgress">
+        <attr name="progressWidth" format="dimension" />
+        <attr name="fontSize" format="dimension" />
+        <attr name="progressColor" format="color" />
+        <attr name="progressBgColor" format="color" />
+        <attr name="waterWaveColor" format="color" />
+        <attr name="waterWaveBgColor" format="color" />
+        <attr name="progress2WaterWidth" format="dimension" />
+        <attr name="showProgress" format="boolean" />
+        <attr name="showNumerical" format="boolean" />
+        <attr name="textColor" format="color" />
+        <attr name="progress" format="integer" />
+        <attr name="maxProgress" format="integer" />
+    </declare-styleable>
+
+    <!--快捷菜单中模式的进度-->
+    <declare-styleable name="CircleImageView">
+        <attr name="android:src" />
+        <attr name="android:color" />
+        <attr name="android:indeterminate"/>
+        <attr name="android:progress"/>
+        <attr name="android:max"/>
+        <attr name="android:indeterminateDuration"/>
+        <attr name="fbb_progressColor" format="reference|color"/>
+        <attr name="fbb_autoStart" format="boolean" />
+        <attr name="fbb_animSteps" format="integer" />
+        <attr name="fbb_progressWidthRatio" format="float" />
+        <attr name="fbb_endBitmap" format="reference" />
+        <attr name="fbb_showEndBitmap" format="boolean" />
+        <attr name="fbb_hideProgressOnComplete" format="boolean" />
+    </declare-styleable>
+
+</resources>
