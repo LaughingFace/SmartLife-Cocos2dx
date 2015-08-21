@@ -13,6 +13,7 @@ using namespace cocostudio;
 using namespace cocostudio::timeline;
 class LogoActionTimelineNode : public ActionTimelineNode
 {
+    //由于动画实现的方式众多，比如gaf。csb等方式。因此这个类应该设计成接口
 public:
     static const int STATE_NORMAL;
     static const int STATE_MOUSE_OPEN ;
@@ -21,12 +22,12 @@ public:
     LogoActionTimelineNode();
     static int currentState;
     static LogoActionTimelineNode* create();
-   // bool init(cocos2d::Node* root, ActionTimeline* action);
-
-    void performWorkingAnim(bool loop);
-    void performTongueAnim(bool loop);
-    void performMouseOpenAnim(bool loop);
-    void performMouseCloseAnim(bool loop);
+    void nihao(int a = 1);
+    void performWorkingAnim(bool loop = false);
+    void performTongueAnim(bool loop = false);
+    void performMouseOpenAnim(bool loop = false);
+    void performMouseCloseAnim(bool loop = false);
+    void performNormalAnim(bool loop =false);
 
     void performMouseAnim(float percent);
     void performWorkingAnim(float percent);
@@ -36,13 +37,10 @@ public:
 
     virtual void setRoot(cocos2d::Node* root);
     virtual cocos2d::Node* getRoot();
-    void callback(float d);
-    void callback2(float dd);
     virtual void setActionTimeline(ActionTimeline* action);
     virtual ActionTimeline* getActionTimeline();
-    void setGAFPosition(Vec2 position);
-    void onFrameEvent(Frame* frame);
 private:
+    //加载gaf动画并控制动画
     static gaf::GAFObject* _gafObj;
 protected:
     

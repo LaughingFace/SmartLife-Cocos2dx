@@ -198,19 +198,14 @@ void HelloWorld::initView(){
     _elasticRope->setElasticRopeCallback(this);
     _elasticRope->createB2body(_washingBirthplacePosition);
     _laughingMan = LogoActionTimelineNode::create();
-//    _laughingMan->setPosition(_laughingManPostion);
-    _laughingMan->setGAFPosition(_laughingManPostion);
+    _laughingMan->setPosition(_laughingManPostion);
+//    _laughingMan->setGAFPosition(_laughingManPostion);
     //add scene .
     addChild(_fan);
     addChild(_title);
     addChild(_elasticRope);
-//    addChild(_laughingMan);
-    auto asset = gaf::GAFAsset::create("LogoFaceAnim/LogoFaceAnim.gaf");
-    auto _gafObj = asset->createObject();
-    _gafObj->start();
-    _gafObj->playSequence("normal", false);
-    _gafObj->setAnchorPoint(Vec2(0.5f,0.5f));
-    addChild(_gafObj);
+    addChild(_laughingMan);
+  
 }
 static int scaleAnimation = 0;
 static const bool isIOS = CC_TARGET_PLATFORM == 1;

@@ -8,25 +8,26 @@ const float TimeSpeed = 3.5f;
 int LogoActionTimelineNode::currentState = LogoActionTimelineNode::STATE_NORMAL;
 gaf::GAFObject* LogoActionTimelineNode::_gafObj;
 void LogoActionTimelineNode::performMouseOpenAnim(bool loop){
-  
-
+    
+        _gafObj->playSequence("openmouse", loop);
 }
 void LogoActionTimelineNode::performMouseCloseAnim(bool loop){
-    
+    _gafObj->playSequence("closemouse", loop);
+
 }
 void LogoActionTimelineNode::performWorkingAnim(bool loop){
     
-    
+    _gafObj->playSequence("working", loop);
 }
 
 void LogoActionTimelineNode::performTongueAnim(bool loop){
-  
-
+    _gafObj->playSequence("eat", loop);
+    _gafObj->setAnimationFinishedPlayDelegate([loop](gaf::GAFObject* gafObject){
+        _gafObj->playSequence("normal", false);
+        _gafObj->setAnimationFinishedPlayDelegate(nullptr);
+    });
 }
 
-void LogoActionTimelineNode::onFrameEvent(Frame* frame)
-{
-}
 void LogoActionTimelineNode::performMouseAnim(float percent){
 
 }
@@ -38,7 +39,10 @@ void LogoActionTimelineNode::performWorkingAnim(float percent){
 void LogoActionTimelineNode::performTongueAnim(float percent){
     
 }
-
+void LogoActionTimelineNode::performNormalAnim(bool loop)
+{
+    _gafObj->playSequence("normal", loop);
+}
 LogoActionTimelineNode* LogoActionTimelineNode::create()
 {
     
@@ -50,8 +54,9 @@ LogoActionTimelineNode* LogoActionTimelineNode::create()
         auto asset = gaf::GAFAsset::create("LogoFaceAnim/LogoFaceAnim.gaf");
         _gafObj = asset->createObject();
         _gafObj->start();
-        _gafObj->playSequence("normal", false);
+        
         _gafObj->setAnchorPoint(Vec2(0.5f,0.5f));
+        object->performNormalAnim();
         object->addChild(_gafObj);
         
         return object;
@@ -59,10 +64,6 @@ LogoActionTimelineNode* LogoActionTimelineNode::create()
     CC_SAFE_DELETE(object);
     
     return nullptr;
-}
-void LogoActionTimelineNode::setGAFPosition(Vec2 position)
-{
-    _gafObj->setPosition(position);
 }
 LogoActionTimelineNode::LogoActionTimelineNode()
 : _root(nullptr)
@@ -84,15 +85,7 @@ bool LogoActionTimelineNode::init(Node* root, ActionTimeline* action)
 //    this->runAction (this->getActionTimeline ());
     return true;
 }
-void LogoActionTimelineNode::callback(float delta)
-{
-    if (currentState != STATE_MOUSE_WORKING)
-    log("aaa");
-}
-void LogoActionTimelineNode::callback2(float delta)
-{
-    log("aaa");
-}
+
 void LogoActionTimelineNode::setRoot(cocos2d::Node* root)
 {
     _root = root;
