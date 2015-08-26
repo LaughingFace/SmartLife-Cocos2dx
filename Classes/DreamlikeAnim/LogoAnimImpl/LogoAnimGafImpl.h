@@ -12,16 +12,18 @@
 #include <stdio.h>
 #include "../LogoAnim.h"
 #include "../../Sources/GAF.h"
+using namespace gaf;
 class LogoAnimGafImpl : public LogoAnim
 {
 private:
     gaf::GAFObject* _gafAnim;
+    void finishedNormalAnim();
 public:
-    virtual void performWorkingAnim(bool loop = false) const;
-    virtual void performTongueAnim(bool loop = false) const;
-    virtual void performMouseOpenAnim(bool loop = false) const;
-    virtual void performMouseCloseAnim(bool loop = false) const;
-    virtual void performNormalAnim(bool loop = false) const;
+    virtual void performWorkingAnim(bool loop = false) ;
+    virtual void performTongueAnim(bool loop = false) ;
+    virtual void performMouseOpenAnim(bool loop = false) ;
+    virtual void performMouseCloseAnim(bool loop = false) ;
+    virtual void performNormalAnim(bool loop = false) ;
     virtual Rect getBoundingBox() const;
     virtual bool init();
     CREATE_FUNC(LogoAnimGafImpl);

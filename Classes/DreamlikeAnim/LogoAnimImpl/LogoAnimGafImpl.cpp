@@ -7,9 +7,14 @@
 //
 
 #include "LogoAnimGafImpl.h"
-std::string gafPath = "LogoFaceAnim/LogoFaceAnim.gaf";
-std::string animNormal = "normal";
-std::string animWorking = "eating";
+using namespace std;
+string gafPath = "LogoFaceAnim/LogoFaceAnim.gaf";
+string animNormal = "normal";
+string animWorking = "working";
+string animOpemMouse = "openmouse";
+string animCloseMouse = "closemouse";
+string animEat = "eat";
+
 bool LogoAnimGafImpl::init()
 {
     auto gafAsset = gaf::GAFAsset::create(gafPath);
@@ -20,21 +25,29 @@ bool LogoAnimGafImpl::init()
     performNormalAnim();
     return true;
 }
-void LogoAnimGafImpl::performWorkingAnim(bool loop) const{
-    
+void LogoAnimGafImpl::performWorkingAnim(bool loop) {
+    _gafAnim->playSequence(animWorking,loop);
 }
-void LogoAnimGafImpl::performTongueAnim(bool loop) const{
-    
+void LogoAnimGafImpl::performTongueAnim(bool loop) {
+    _gafAnim->playSequence(animEat, loop);
+    finishedNormalAnim();
 }
-void LogoAnimGafImpl::performMouseOpenAnim(bool loop) const{
-    
+void LogoAnimGafImpl::performMouseOpenAnim(bool loop) {
+    _gafAnim->playSequence(animOpemMouse, loop);
 }
-void LogoAnimGafImpl::performMouseCloseAnim(bool loop) const{
-    
+void LogoAnimGafImpl::performMouseCloseAnim(bool loop) {
+    _gafAnim->playSequence(animCloseMouse, loop);
+    finishedNormalAnim();
 }
-void LogoAnimGafImpl::performNormalAnim(bool loop) const{
+void LogoAnimGafImpl::performNormalAnim(bool loop) {
     _gafAnim->playSequence(animNormal, loop);
 }
 Rect LogoAnimGafImpl::getBoundingBox() const{
     return _gafAnim->getBoundingBox();
+}
+void LogoAnimGafImpl::finishedNormalAnim(){
+    _gafAnim->setAnimationFinishedPlayDelegate([this](GAFObject* gafObject){
+        this->performNormalAnim();
+        this->_gafAnim->setAnimationFinishedPlayDelegate(nullptr);
+    });
 }
