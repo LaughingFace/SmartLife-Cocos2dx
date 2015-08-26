@@ -57,24 +57,7 @@ bool HelloWorld::init()
     // 3. add your codes below...
     //add titlebar
 
-    //风扇停止。
-    auto fansanListener = EventListenerTouchOneByOne::create();
-    fansanListener->onTouchBegan = [this](Touch* touch,Event* event){
-        if(event->getCurrentTarget()->getBoundingBox().containsPoint(touch->getLocation()))
-            {
-            if(this->_fan->getActionTimeline()->isPlaying ()){
-                this->_fan->getActionTimeline()->gotoFrameAndPause (0);
-            }
-            else
-            {
-                this->_fan->getActionTimeline()->gotoFrameAndPlay (0);
-            }
-            return true;
-        }
-        return false;
-    };
     
-    Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority (fansanListener,_fan->getChildByName("background"));
     
     //洗涤物触摸监听。
     washingListener = EventListenerTouchOneByOne::create();
@@ -91,9 +74,6 @@ bool HelloWorld::init()
     };
     washingListener->onTouchMoved = [this](Touch* t,Event* e)
     {
-        
-       
-        
         //位置检测，
         switch(LocationAnalyst::doWhat(t->getLocation(),0))
         {
@@ -182,30 +162,24 @@ void HelloWorld::initView(){
     _title->setScaleY(scale);
     _title->setPosition(_visibleSize.width/2.0f,_visibleSize.height-93.0f/2.0f+20);
     
-    //init fan
-    _fan = LogoAnimationLoader::loadFengshanNode ();
-    _fan->setPosition (_fanPostion);
-    _fan->runAction (_fan->getActionTimeline ());
-    _fan->getActionTimeline ()->gotoFrameAndPlay (1,true);
-    _fan->setScale(0.3f);
-    auto fanBg = _fan->getChildByName("background");
-    fanBg->setPosition(_fan->getPosition());
-    fanBg->setScale(_fan->getScale());
+    //init warmSwitch
+    _warmSwitch = AnimFactory::createWarmSwitchAnim(animTypeCsb);
+    _warmSwitch->setPosition(_fanPostion);
+    
     
     ElasticRope::setVertices(Point(_visibleSize.width*_elasticRopePostion.x,_visibleSize.height*_elasticRopePostion.y)
                              ,Point(_visibleSize.width*(1-_elasticRopePostion.x),_visibleSize.height*_elasticRopePostion.y));
     _elasticRope = ElasticRope::create();
     _elasticRope->setElasticRopeCallback(this);
     _elasticRope->createB2body(_washingBirthplacePosition);
-    _laughingMan = LogoActionTimelineNode::create();
+    _laughingMan = AnimFactory::createLogoAnim(animTypeGAF);
     _laughingMan->setPosition(_laughingManPostion);
-//    _laughingMan->setGAFPosition(_laughingManPostion);
     //add scene .
-    addChild(_fan);
+    addChild(_warmSwitch);
     addChild(_title);
     addChild(_elasticRope);
     addChild(_laughingMan);
-  
+    
 }
 static int scaleAnimation = 0;
 static const bool isIOS = CC_TARGET_PLATFORM == 1;

@@ -8,6 +8,7 @@
 #include "cocostudio/CocoStudio.h"
 #include "ElasticRope/ElasticRope.h"
 #include "logoactiontimelinenode.h"
+#include "DreamlikeAnim/AnimFactory.h"
 USING_NS_CC;
 USING_NS_CC_EXT;
 using namespace ui;
@@ -28,8 +29,8 @@ public cocos2d::Layer
     Sprite* _title;//标题栏。
     Sprite* _washing;;//洗涤物。
     ElasticRope* _elasticRope;//橡皮筋效果控件。
-    ActionTimelineNode* _fan;//风扇开关。
-    LogoActionTimelineNode* _laughingMan;//笑人动画控件。
+    WarmSwitchAnim* _warmSwitch;//风扇开关。
+    LogoAnim* _laughingMan;//笑人动画控件。
     Size _visibleSize;//屏幕可是区域大小。
     EventListenerTouchOneByOne* washingListener ;
     void initView();

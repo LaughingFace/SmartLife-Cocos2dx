@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/HelloWorldScene.cpp"
-            timestampString = "461752489.594274"
+            timestampString = "462250681.891467"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "241"
-            endingLineNumber = "241"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
             landmarkName = "HelloWorld::onUpdatePosition(Vec2* position)"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/HelloWorldScene.cpp"
-            timestampString = "461752489.594274"
+            timestampString = "462250681.891467"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "213"
-            endingLineNumber = "213"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
             landmarkName = "HelloWorld::onUpdatePosition(Vec2* position)"
             landmarkType = "5">
          </BreakpointContent>
@@ -48,6 +48,38 @@
             startingLineNumber = "12"
             endingLineNumber = "12"
             landmarkName = "LogoActionTimelineNode::performMouseOpenAnim(bool loop)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/DreamlikeAnim/AnimFactory.cpp"
+            timestampString = "462175998.218319"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "AnimFactory::createLogoAnim(AnimImplementType type)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/DreamlikeAnim/WarmSwitchAnim.cpp"
+            timestampString = "462250905.521444"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "WarmSwitchAnim::init()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

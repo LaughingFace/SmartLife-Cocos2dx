@@ -9,17 +9,14 @@
 #include "HelloworldSceneViewConfig.h"
 #include "ElasticRope/ElasticRope.h"
 ModelManager* ModelManager::instance;
- ActionTimelineNode* ModelManager::_face;
- ActionTimelineNode* ModelManager::_working;
- ActionTimelineNode* ModelManager::_tongue;
-  ActionTimelineNode* ModelManager::_mouse_close;
+
  Node* ModelManager::_logo_normal;
  Node* ModelManager::_rootNode;
  b2World* ModelManager::_world;
 static void* _elasticRope;
-static LogoActionTimelineNode* laughingMan;
+static LogoAnim* laughingMan;
 int tag = 0;
-void ModelManager::setAction(Node* rootNode,void* elasticRope,LogoActionTimelineNode* laughingMan2)
+void ModelManager::setAction(Node* rootNode,void* elasticRope,LogoAnim* laughingMan2)
 {
         _rootNode = rootNode;
     _elasticRope = elasticRope;
@@ -36,7 +33,6 @@ void ModelManager::offLine()
 {
     log("<<<<<<<<<< offLine >>>>>>>>>>>");
 }
-LogoActionTimelineNode* object;
 void ModelManager::onModelStart()
 {
     log("<<<<<<<<<< onModelStart >>>>>>>>>>>");
@@ -62,7 +58,6 @@ void ModelManager::setWorld(b2World *world){
 void ModelManager::onFinish()
 {
     log("<<<<<<<<<< onFinish >>>>>>>>>>>");
-    LogoActionTimelineNode::currentState = LogoActionTimelineNode::STATE_NORMAL;
     laughingMan->performTongueAnim(false);
     auto visibleSize = Director::getInstance()->getVisibleSize();
     auto a = (ElasticRopeBox2d::ElasticRope*)(_elasticRope);

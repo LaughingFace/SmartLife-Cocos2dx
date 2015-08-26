@@ -3,7 +3,7 @@
 #include "cocos2d.h"
 #include "cocostudio/CocoStudio.h"
 #include "Box2D/Box2D.h"
-#include "logoactiontimelinenode.h"
+#include "DreamlikeAnim/LogoAnim.h"
 //#include "ElasticRope/ElasticRope.h"
 
 using namespace cocos2d;
@@ -13,13 +13,9 @@ class ModelManager
 private:
     ModelManager(){}
     static ModelManager* instance;
-    static ActionTimelineNode* _face;
-    static ActionTimelineNode* _working;
-    static ActionTimelineNode* _tongue;
     static Node* _rootNode;
     static Node* _logo_normal;
     static b2World* _world;
-    static  ActionTimelineNode* _mouse_close;
 public:
     static ModelManager * getInstance()
     {
@@ -27,7 +23,7 @@ public:
            ModelManager::instance = new ModelManager();
         return instance;
     }
-    static void setAction(Node* rootNode,void* rope,LogoActionTimelineNode* laughingMan2);
+    static void setAction(Node* rootNode,void* rope,LogoAnim* laughingMan2);
     static void setWorld(b2World* world);
     void offLine() ;
      void onLine() ;
