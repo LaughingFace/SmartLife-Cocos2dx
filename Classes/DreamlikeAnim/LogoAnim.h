@@ -22,6 +22,7 @@ public:
     virtual void performMouseOpenAnim(bool loop )  =0;
     virtual void performMouseCloseAnim(bool loop)  =0;
     virtual void performNormalAnim(bool loop )  =0;
+    virtual bool isRunning() =0;
 };
 #endif /* defined(__cocosProject__LogoAnim__) */
 

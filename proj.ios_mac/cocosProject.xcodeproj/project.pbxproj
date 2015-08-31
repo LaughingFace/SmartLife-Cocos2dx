@@ -93,10 +93,7 @@
 		F934BE3E1B8C014600207EC6 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F934BDC41B8C014600207EC6 /* HelloWorldScene.cpp */; };
 		F934BE3F1B8C014600207EC6 /* HelloworldSceneViewConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F934BDC61B8C014600207EC6 /* HelloworldSceneViewConfig.cpp */; };
 		F934BE401B8C014600207EC6 /* LocationAnalyst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F934BDC81B8C014600207EC6 /* LocationAnalyst.cpp */; };
-		F934BE411B8C014600207EC6 /* logoactiontimelinenode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F934BDCA1B8C014600207EC6 /* logoactiontimelinenode.cpp */; };
-		F934BE421B8C014700207EC6 /* logoanimationloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F934BDCC1B8C014600207EC6 /* logoanimationloader.cpp */; };
 		F934BE431B8C014700207EC6 /* modelmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F934BDCE1B8C014600207EC6 /* modelmanager.cpp */; };
-		F934BE441B8C014700207EC6 /* mysprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F934BDD01B8C014600207EC6 /* mysprite.cpp */; };
 		F934C0601B8C0D7E00207EC6 /* Doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = F934C0081B8C0D7E00207EC6 /* Doxyfile */; };
 		F934C0611B8C0D7E00207EC6 /* Doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = F934C0081B8C0D7E00207EC6 /* Doxyfile */; };
 		F934C0621B8C0D7E00207EC6 /* GAFAnimationFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F934C00C1B8C0D7E00207EC6 /* GAFAnimationFrame.cpp */; };
@@ -319,14 +316,8 @@
 		F934BDC71B8C014600207EC6 /* HelloworldSceneViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloworldSceneViewConfig.h; sourceTree = "<group>"; };
 		F934BDC81B8C014600207EC6 /* LocationAnalyst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocationAnalyst.cpp; sourceTree = "<group>"; };
 		F934BDC91B8C014600207EC6 /* LocationAnalyst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAnalyst.h; sourceTree = "<group>"; };
-		F934BDCA1B8C014600207EC6 /* logoactiontimelinenode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logoactiontimelinenode.cpp; sourceTree = "<group>"; };
-		F934BDCB1B8C014600207EC6 /* logoactiontimelinenode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logoactiontimelinenode.h; sourceTree = "<group>"; };
-		F934BDCC1B8C014600207EC6 /* logoanimationloader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logoanimationloader.cpp; sourceTree = "<group>"; };
-		F934BDCD1B8C014600207EC6 /* logoanimationloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logoanimationloader.h; sourceTree = "<group>"; };
 		F934BDCE1B8C014600207EC6 /* modelmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = modelmanager.cpp; sourceTree = "<group>"; };
 		F934BDCF1B8C014600207EC6 /* modelmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modelmanager.h; sourceTree = "<group>"; };
-		F934BDD01B8C014600207EC6 /* mysprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mysprite.cpp; sourceTree = "<group>"; };
-		F934BDD11B8C014600207EC6 /* mysprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysprite.h; sourceTree = "<group>"; };
 		F934C0071B8C0D7E00207EC6 /* DefinitionTagBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefinitionTagBase.h; sourceTree = "<group>"; };
 		F934C0081B8C0D7E00207EC6 /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
 		F934C0091B8C0D7E00207EC6 /* GAF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAF.h; sourceTree = "<group>"; };
@@ -637,14 +628,8 @@
 				F934BDC71B8C014600207EC6 /* HelloworldSceneViewConfig.h */,
 				F934BDC81B8C014600207EC6 /* LocationAnalyst.cpp */,
 				F934BDC91B8C014600207EC6 /* LocationAnalyst.h */,
-				F934BDCA1B8C014600207EC6 /* logoactiontimelinenode.cpp */,
-				F934BDCB1B8C014600207EC6 /* logoactiontimelinenode.h */,
-				F934BDCC1B8C014600207EC6 /* logoanimationloader.cpp */,
-				F934BDCD1B8C014600207EC6 /* logoanimationloader.h */,
 				F934BDCE1B8C014600207EC6 /* modelmanager.cpp */,
 				F934BDCF1B8C014600207EC6 /* modelmanager.h */,
-				F934BDD01B8C014600207EC6 /* mysprite.cpp */,
-				F934BDD11B8C014600207EC6 /* mysprite.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -1001,9 +986,7 @@
 				F934C0B31B8C170800207EC6 /* LogoAnimGafImpl.h in Sources */,
 				F934C0B21B8C10C400207EC6 /* GAF.h in Sources */,
 				F934C0641B8C0D7E00207EC6 /* GAFAnimationSequence.cpp in Sources */,
-				F934BE441B8C014700207EC6 /* mysprite.cpp in Sources */,
 				F934C09C1B8C0D7E00207EC6 /* TagDefineAnimationFrames.cpp in Sources */,
-				F934BE421B8C014700207EC6 /* logoanimationloader.cpp in Sources */,
 				F934BE351B8C014600207EC6 /* GoodsData.cpp in Sources */,
 				F934C0881B8C0D7E00207EC6 /* GAFTextField.cpp in Sources */,
 				F934C0721B8C0D7E00207EC6 /* GAFLoader.cpp in Sources */,
@@ -1059,7 +1042,6 @@
 				F934C0621B8C0D7E00207EC6 /* GAFAnimationFrame.cpp in Sources */,
 				F934C0661B8C0D7E00207EC6 /* GAFAsset.cpp in Sources */,
 				F934C07A1B8C0D7E00207EC6 /* GAFPrecompiled.cpp in Sources */,
-				F934BE411B8C014600207EC6 /* logoactiontimelinenode.cpp in Sources */,
 				F934C0A41B8C0D7E00207EC6 /* TagDefineAtlas.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

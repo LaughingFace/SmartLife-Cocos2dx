@@ -18,12 +18,14 @@ class LogoAnimGafImpl : public LogoAnim
 private:
     gaf::GAFObject* _gafAnim;
     void finishedNormalAnim();
+    bool run = false;
 public:
     virtual void performWorkingAnim(bool loop = false) ;
     virtual void performTongueAnim(bool loop = false) ;
     virtual void performMouseOpenAnim(bool loop = false) ;
     virtual void performMouseCloseAnim(bool loop = false) ;
     virtual void performNormalAnim(bool loop = false) ;
+    virtual bool isRunning();
     virtual Rect getBoundingBox() const;
     virtual bool init();
     CREATE_FUNC(LogoAnimGafImpl);

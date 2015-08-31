@@ -1,5 +1,4 @@
 #include "HelloWorldScene.h"
-#include "logoanimationloader.h"
 #include "HelloworldSceneViewConfig.h"
 #include "LocationAnalyst.h"
 
@@ -64,9 +63,6 @@ bool HelloWorld::init()
     washingListener->onTouchBegan = [this](Touch* t,Event* e)
     {
         if (this->_washing && this->_washing->getBoundingBox().containsPoint(t->getLocation())){
-             log("on touch began");
-            LocationAnalyst::isTouch = true;
-            LocationAnalyst::state = WASHING_NOTHING;
             return true;
         }
        
@@ -75,23 +71,24 @@ bool HelloWorld::init()
     washingListener->onTouchMoved = [this](Touch* t,Event* e)
     {
         //位置检测，
-        switch(LocationAnalyst::doWhat(t->getLocation(),0))
+        
+        switch(LocationAnalyst::underTouchDoWhat(t->getLocation()))
         {
             case WASHING_CHANGE:
                 _elasticRope->style1();
-                if (LogoActionTimelineNode::currentState == LogoActionTimelineNode::STATE_MOUSE_OPEN)
+                if (LocationAnalyst::animState == WASHING_OPENMOUSE)
                 {
-                    
                     this->_laughingMan->performMouseCloseAnim(false);
-                    LogoActionTimelineNode::currentState = LogoActionTimelineNode::STATE_NORMAL;
+                    LocationAnalyst::animState = WASHING_NOTHING;
                 }
                 break;
-            case WASHING_SELECT:
-                if (LogoActionTimelineNode::currentState ==LogoActionTimelineNode::STATE_NORMAL)
+            case WASHING_START :
+               
+                _elasticRope->style2();
+                if (LocationAnalyst::animState != WASHING_OPENMOUSE)
                 {
-                    _elasticRope->style2();
                     this->_laughingMan->performMouseOpenAnim(false);
-                    LogoActionTimelineNode::currentState = LogoActionTimelineNode::STATE_MOUSE_OPEN;
+                    LocationAnalyst::animState = WASHING_OPENMOUSE;
                 }
                 
                 break;
@@ -106,18 +103,16 @@ bool HelloWorld::init()
     {
         this->_elasticRope->getMovePermission()->endMove();
         log("on touch ended");
-        switch(LocationAnalyst::doWhat(t->getLocation(),0))
+        LocationAnalyst::animState = WASHING_NOTHING;
+        switch(LocationAnalyst::underTouchDoWhat(t->getLocation()))
         {
-            case WASHING_CHANGE:
-                LocationAnalyst::state = LocationAnalyst::STATE_REBIRTH;
-                LocationAnalyst::isTouch = false;
+            case WASHING_START:
+                LocationAnalyst::enterState(state_start);
                 break;
-            case WASHING_SELECT:
-                LocationAnalyst::state = LocationAnalyst::STATE_FOOD;
-                LocationAnalyst::isTouch = false;
+            case WASHING_CHANGE:
+                LocationAnalyst::enterState(state_change);
                 break;
         }
-        
         
     };
     Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority(washingListener, this);
@@ -190,31 +185,22 @@ void HelloWorld::onUpdatePosition(Vec2* position)
     if (_washing)
     {
         _washing->setPosition(vec2);
-//        if (_washing->getScale() < 1)
-//        {
-//            _washing->setScale(_washing->getScale()+0.01f);
-//        }
+        if (_washing->getScale() < 1)
+        {
+            _washing->setScale(_washing->getScale()+0.01f);
+        }
     }
     
-    switch(LocationAnalyst::doWhat(vec2,1))
+    switch(LocationAnalyst::underStateDoWhat(vec2))
     {
         case WASHING_REBIRTH:
             _elasticRope->removeB2body();
             _elasticRope->createB2body(_washingBirthplacePosition);
-            LocationAnalyst::state = WASHING_NOTHING;
-//            _washing->setScale(0.1f);
             break;
         case WASHING_EAT_FOOD:
-            if (LogoActionTimelineNode::currentState != LogoActionTimelineNode::STATE_MOUSE_CLOSE){
-                LogoActionTimelineNode::currentState = LogoActionTimelineNode::STATE_MOUSE_CLOSE;
-                _laughingMan->performMouseCloseAnim(false);
-               
-            }
-            
             scaleAnimation = 1;
             break;
         case WASHING_EATED_FOOD:
-            LocationAnalyst::state = WASHING_NOTHING;
              _elasticRope->removeB2body();
             _washing->setVisible(false);
             ModelManager::getInstance()->startStandard();
@@ -238,7 +224,7 @@ void HelloWorld::onData(void* data)
              addChild(_washing);
         }
         else{
-            log("change iamge");
+            log("change image");
             _washing->setTexture(goodsdata->getResPath());
             _washing->setVisible(true);
             _washing->setScale(1.0f);
@@ -271,8 +257,13 @@ void HelloWorld::update(float delta)
             limt = 2000 - limt;
         }
         log("animation");
-        if (LogoActionTimelineNode::currentState == LogoActionTimelineNode::STATE_NORMAL)
-        _laughingMan->performTongueAnim(false);
+        if (!_laughingMan->isRunning()){
+            _laughingMan->performTongueAnim(false);
+
+        }
+        else{
+            log("running");
+        }
     }
     
    
@@ -290,7 +281,7 @@ void HelloWorld::update(float delta)
         {
             if (isIOS)
             {
-            LogoActionTimelineNode::currentState = LogoActionTimelineNode::STATE_NORMAL;
+//            LogoActionTimelineNode::currentState = LogoActionTimelineNode::STATE_NORMAL;
             _laughingMan->performTongueAnim(false);
             auto visibleSize = Director::getInstance()->getVisibleSize();
             auto a = (ElasticRopeBox2d::ElasticRope*)(_elasticRope);
@@ -300,5 +291,4 @@ void HelloWorld::update(float delta)
             }
         }
     }
-    
 }

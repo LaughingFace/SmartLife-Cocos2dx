@@ -1,7 +1,6 @@
 #include "ElasticRope.h"
 #include "MyBox2d/RopeJoin.h"
 #include "ElasticRopeConfig.h"
-#include "logoanimationloader.h"
 #include "modelmanager.h"
 
 #include "BodyData.h"

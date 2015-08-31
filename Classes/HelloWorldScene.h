@@ -7,7 +7,6 @@
 #include "ui/UIButton.h"
 #include "cocostudio/CocoStudio.h"
 #include "ElasticRope/ElasticRope.h"
-#include "logoactiontimelinenode.h"
 #include "DreamlikeAnim/AnimFactory.h"
 USING_NS_CC;
 USING_NS_CC_EXT;

@@ -26,21 +26,30 @@ bool LogoAnimGafImpl::init()
     return true;
 }
 void LogoAnimGafImpl::performWorkingAnim(bool loop) {
+    run = true;
     _gafAnim->playSequence(animWorking,loop);
 }
 void LogoAnimGafImpl::performTongueAnim(bool loop) {
+    run = true;
     _gafAnim->playSequence(animEat, loop);
     finishedNormalAnim();
 }
 void LogoAnimGafImpl::performMouseOpenAnim(bool loop) {
+    run = true;
     _gafAnim->playSequence(animOpemMouse, loop);
 }
 void LogoAnimGafImpl::performMouseCloseAnim(bool loop) {
+    run = true;
     _gafAnim->playSequence(animCloseMouse, loop);
     finishedNormalAnim();
 }
 void LogoAnimGafImpl::performNormalAnim(bool loop) {
+    run = false;
     _gafAnim->playSequence(animNormal, loop);
+}
+bool LogoAnimGafImpl::isRunning()
+{
+    return run;
 }
 Rect LogoAnimGafImpl::getBoundingBox() const{
     return _gafAnim->getBoundingBox();
