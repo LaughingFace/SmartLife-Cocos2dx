@@ -11,16 +11,17 @@ bool WarmSwitchAnim::init()
 {
     auto NodeListener = EventListenerTouchOneByOne::create();
     NodeListener->onTouchBegan = [this](Touch* touch,Event* event){
-        log("size::::::::%f",this->getBoundingBox().size.width);
+//        log("size::::::::%f",this->getBoundingBox().size.width);
         if(this->getBoundingBox().containsPoint(touch->getLocation()))
         {
             if (this->isOpen())
             {
-                log("base isopen = true");
-                this->close();            }
+//                log("base isopen = true");
+                this->close();
+            }
             else{
                 this->open();
-                log("base isopen = false");
+//                log("base isopen = false");
 
             }
             return true;

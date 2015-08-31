@@ -9,13 +9,13 @@
 #include "WarmSwitchAnimCsbImpl.h"
 void WarmSwitchCsbImpl::open()
 {
-    log("open");
+//    log("open");
     _atn->getActionTimeline()->gotoFrameAndPlay(0);
     setOpen(true);
 }
 
 void WarmSwitchCsbImpl::close(){
-    log("close");
+//    log("close");
     _atn->getActionTimeline()->gotoFrameAndPause(0);
     setOpen(false);
     

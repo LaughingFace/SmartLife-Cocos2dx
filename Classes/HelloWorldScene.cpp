@@ -256,14 +256,10 @@ void HelloWorld::update(float delta)
         {
             limt = 2000 - limt;
         }
-        log("animation");
         if (!_laughingMan->isRunning()){
             _laughingMan->performTongueAnim(false);
-
         }
-        else{
-            log("running");
-        }
+        animation = 0;
     }
     
    
